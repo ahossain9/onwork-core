@@ -1,0 +1,483 @@
+@font-face {
+  font-family: 'onwork';
+  src:  url('../fonts/onwork.eot?yi40t4');
+  src:  url('../fonts/onwork.eot?yi40t4#iefix') format('embedded-opentype'),
+    url('../fonts/onwork.ttf?yi40t4') format('truetype'),
+    url('../fonts/onwork.woff?yi40t4') format('woff'),
+    url('../fonts/onwork.svg?yi40t4#onwork') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'onwork' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arm-wrestling:before {
+  content: "\e900";
+}
+.icon-workspace:before {
+  content: "\e901";
+}
+.icon-exam1:before {
+  content: "\e902";
+}
+.icon-struggle:before {
+  content: "\e903";
+}
+.icon-role-model:before {
+  content: "\e904";
+}
+.icon-web-programming:before {
+  content: "\e905";
+}
+.icon-coaching1:before {
+  content: "\e906";
+}
+.icon-study3:before {
+  content: "\e907";
+}
+.icon-database:before {
+  content: "\e908";
+}
+.icon-motivation:before {
+  content: "\e909";
+}
+.icon-advice:before {
+  content: "\e90a";
+}
+.icon-study2:before {
+  content: "\e90b";
+}
+.icon-direction:before {
+  content: "\e90c";
+}
+.icon-globe:before {
+  content: "\e90d";
+}
+.icon-calculator1:before {
+  content: "\e90e";
+}
+.icon-goal:before {
+  content: "\e90f";
+}
+.icon-teach:before {
+  content: "\e910";
+}
+.icon-trust:before {
+  content: "\e911";
+}
+.icon-audio-book:before {
+  content: "\e912";
+}
+.icon-training:before {
+  content: "\e913";
+}
+.icon-elearning2:before {
+  content: "\e914";
+}
+.icon-Excellence:before {
+  content: "\e915";
+}
+.icon-music-education:before {
+  content: "\e916";
+}
+.icon-success:before {
+  content: "\e917";
+}
+.icon-focus:before {
+  content: "\e918";
+}
+.icon-study1:before {
+  content: "\e919";
+}
+.icon-award:before {
+  content: "\e91a";
+}
+.icon-exam:before {
+  content: "\e91b";
+}
+.icon-list:before {
+  content: "\e91c";
+}
+.icon-sports:before {
+  content: "\e91d";
+}
+.icon-megaphone:before {
+  content: "\e91e";
+}
+.icon-video-tutorial:before {
+  content: "\e91f";
+}
+.icon-brain:before {
+  content: "\e920";
+}
+.icon-checklist:before {
+  content: "\e921";
+}
+.icon-dictionary:before {
+  content: "\e922";
+}
+.icon-strong:before {
+  content: "\e923";
+}
+.icon-team1:before {
+  content: "\e924";
+}
+.icon-test:before {
+  content: "\e925";
+}
+.icon-coaching:before {
+  content: "\e926";
+}
+.icon-elearning1:before {
+  content: "\e927";
+}
+.icon-books:before {
+  content: "\e928";
+}
+.icon-stopwatch:before {
+  content: "\e929";
+}
+.icon-online-learning:before {
+  content: "\e92a";
+}
+.icon-puzzle:before {
+  content: "\e92b";
+}
+.icon-certificate2:before {
+  content: "\e92c";
+}
+.icon-key-person:before {
+  content: "\e92d";
+}
+.icon-download:before {
+  content: "\e92e";
+}
+.icon-strategy:before {
+  content: "\e92f";
+}
+.icon-hours:before {
+  content: "\e930";
+}
+.icon-ebook:before {
+  content: "\e931";
+}
+.icon-schedule:before {
+  content: "\e932";
+}
+.icon-brainstorm:before {
+  content: "\e933";
+}
+.icon-elearning:before {
+  content: "\e934";
+}
+.icon-certificate1:before {
+  content: "\e935";
+}
+.icon-Purpose:before {
+  content: "\e936";
+}
+.icon-design:before {
+  content: "\e937";
+}
+.icon-learning1:before {
+  content: "\e938";
+}
+.icon-study:before {
+  content: "\e939";
+}
+.icon-win:before {
+  content: "\e93a";
+}
+.icon-calculator:before {
+  content: "\e93b";
+}
+.icon-growth1:before {
+  content: "\e93c";
+}
+.icon-learning:before {
+  content: "\e93d";
+}
+.icon-video-call:before {
+  content: "\e93e";
+}
+.icon-idea:before {
+  content: "\e93f";
+}
+.icon-pencil:before {
+  content: "\e940";
+}
+.icon-skill:before {
+  content: "\e941";
+}
+.icon-student:before {
+  content: "\e942";
+}
+.icon-certificate:before {
+  content: "\e943";
+}
+.icon-read:before {
+  content: "\e944";
+}
+.icon-question:before {
+  content: "\e945";
+}
+.icon-teach1:before {
+  content: "\e946";
+}
+.icon-education1:before {
+  content: "\e947";
+}
+.icon-tutorial1:before {
+  content: "\e948";
+}
+.icon-experience:before {
+  content: "\e949";
+}
+.icon-homeschooling:before {
+  content: "\e94a";
+}
+.icon-physics:before {
+  content: "\e94b";
+}
+.icon-presentation:before {
+  content: "\e94c";
+}
+.icon-decision-making:before {
+  content: "\e94d";
+}
+.icon-tutorial:before {
+  content: "\e94e";
+}
+.icon-homework:before {
+  content: "\e94f";
+}
+.icon-online-learning2:before {
+  content: "\e950";
+}
+.icon-painting:before {
+  content: "\e951";
+}
+.icon-success2:before {
+  content: "\e952";
+}
+.icon-elearning4:before {
+  content: "\e953";
+}
+.icon-team2:before {
+  content: "\e954";
+}
+.icon-motivation1:before {
+  content: "\e955";
+}
+.icon-online-learning1:before {
+  content: "\e956";
+}
+.icon-support:before {
+  content: "\e957";
+}
+.icon-teacher:before {
+  content: "\e958";
+}
+.icon-growth:before {
+  content: "\e959";
+}
+.icon-idea1:before {
+  content: "\e95a";
+}
+.icon-education:before {
+  content: "\e95b";
+}
+.icon-focus1:before {
+  content: "\e95c";
+}
+.icon-growth2:before {
+  content: "\e95d";
+}
+.icon-trophy:before {
+  content: "\e95e";
+}
+.icon-student1:before {
+  content: "\e95f";
+}
+.icon-success1:before {
+  content: "\e960";
+}
+.icon-question1:before {
+  content: "\e961";
+}
+.icon-campus:before {
+  content: "\e962";
+}
+.icon-elearning3:before {
+  content: "\e963";
+}
+.icon-access:before {
+  content: "\e964";
+}
+.icon-award1:before {
+  content: "\e965";
+}
+.icon-badge:before {
+  content: "\e966";
+}
+.icon-bar-chart-1:before {
+  content: "\e967";
+}
+.icon-bar-chart:before {
+  content: "\e968";
+}
+.icon-binary-code:before {
+  content: "\e969";
+}
+.icon-blue-screen:before {
+  content: "\e96a";
+}
+.icon-brief:before {
+  content: "\e96b";
+}
+.icon-calendar-1:before {
+  content: "\e96c";
+}
+.icon-calendar-2:before {
+  content: "\e96d";
+}
+.icon-calibration:before {
+  content: "\e96e";
+}
+.icon-call:before {
+  content: "\e96f";
+}
+.icon-call-to-action:before {
+  content: "\e970";
+}
+.icon-computer:before {
+  content: "\e971";
+}
+.icon-customer-service-3:before {
+  content: "\e972";
+}
+.icon-customer-service:before {
+  content: "\e973";
+}
+.icon-data:before {
+  content: "\e974";
+}
+.icon-design-tool:before {
+  content: "\e975";
+}
+.icon-email-1:before {
+  content: "\e976";
+}
+.icon-email:before {
+  content: "\e977";
+}
+.icon-envelope:before {
+  content: "\e978";
+}
+.icon-exercise:before {
+  content: "\e979";
+}
+.icon-folder:before {
+  content: "\e97a";
+}
+.icon-layers:before {
+  content: "\e97b";
+}
+.icon-map:before {
+  content: "\e97c";
+}
+.icon-money:before {
+  content: "\e97d";
+}
+.icon-pen-tool:before {
+  content: "\e97e";
+}
+.icon-phone-call:before {
+  content: "\e97f";
+}
+.icon-photo-camera-1:before {
+  content: "\e980";
+}
+.icon-photo-camera:before {
+  content: "\e981";
+}
+.icon-pin:before {
+  content: "\e982";
+}
+.icon-placeholder:before {
+  content: "\e983";
+}
+.icon-planner:before {
+  content: "\e984";
+}
+.icon-report:before {
+  content: "\e985";
+}
+.icon-ribbon:before {
+  content: "\e986";
+}
+.icon-seo:before {
+  content: "\e987";
+}
+.icon-skill1:before {
+  content: "\e988";
+}
+.icon-stats:before {
+  content: "\e989";
+}
+.icon-strategy1:before {
+  content: "\e98a";
+}
+.icon-target:before {
+  content: "\e98b";
+}
+.icon-teacher1:before {
+  content: "\e98c";
+}
+.icon-team-1:before {
+  content: "\e98d";
+}
+.icon-team:before {
+  content: "\e98e";
+}
+.icon-tech-support:before {
+  content: "\e98f";
+}
+.icon-telephone-1:before {
+  content: "\e990";
+}
+.icon-telephone:before {
+  content: "\e991";
+}
+.icon-time-management:before {
+  content: "\e992";
+}
+.icon-tools:before {
+  content: "\e993";
+}
+.icon-training1:before {
+  content: "\e994";
+}
+.icon-vector:before {
+  content: "\e995";
+}
+.icon-video-file:before {
+  content: "\e996";
+}
+.icon-writing:before {
+  content: "\e997";
+}

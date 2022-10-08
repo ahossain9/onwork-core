@@ -1,0 +1,2682 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-22 17:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: base.php:67
+msgid "Onwork Core"
+msgstr ""
+
+#: onwork-core.php:141
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: onwork-core.php:142 onwork-core.php:165 onwork-core.php:189
+msgid "Onwork_Core Core"
+msgstr ""
+
+#: onwork-core.php:143 onwork-core.php:166
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: onwork-core.php:164 onwork-core.php:188
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: onwork-core.php:190
+msgid "PHP"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:25 
+#: elementor/widgets/accordian/accordian.php:48
+msgid "Accordian"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:58 
+#: elementor/widgets/accordian/accordian.php:60 
+#: elementor/widgets/accordian/accordian.php:244 
+#: elementor/widgets/blog-post/blog-post.php:148 
+#: elementor/widgets/blog-post/blog-post.php:449 
+#: elementor/widgets/category-icon-box/category-icon-box.php:513 
+#: elementor/widgets/course-carousel/course-carousel.php:72 
+#: elementor/widgets/course-carousel/course-carousel.php:501 
+#: elementor/widgets/course-grid/course-grid.php:121 
+#: elementor/widgets/course-grid/course-grid.php:401 
+#: elementor/widgets/pricing-table/pricing-table.php:68 
+#: elementor/widgets/pricing-table/pricing-table.php:280 
+#: elementor/widgets/pricing-table/pricing-table.php:647 
+#: elementor/widgets/pricing-table/pricing-table.php:1046 
+#: elementor/widgets/step-flow/step-flow.php:90 
+#: elementor/widgets/step-flow/step-flow.php:93 
+#: elementor/widgets/step-flow/step-flow.php:447 
+#: elementor/widgets/testimonial/testimonial.php:696 
+#: elementor/widgets/webinar-box/webinar-box.php:81 
+#: elementor/widgets/webinar-box/webinar-box.php:426 
+#: wp-widgets/about-us.php:99 wp-widgets/contact-us.php:73
+msgid "Title"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:68 
+#: elementor/widgets/accordian/accordian.php:549 
+#: elementor/widgets/blog-post/blog-post.php:538 
+#: elementor/widgets/category-icon-box/category-icon-box.php:573 
+#: elementor/widgets/pricing-table/pricing-table.php:370 
+#: elementor/widgets/pricing-table/pricing-table.php:1127 
+#: elementor/widgets/step-flow/step-flow.php:105 
+#: elementor/widgets/step-flow/step-flow.php:107 
+#: elementor/widgets/step-flow/step-flow.php:522 
+#: elementor/widgets/webinar-box/webinar-box.php:484
+msgid "Description"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:70
+msgid "Accordion description text"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:77
+msgid "Is Active?"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:79 
+#: elementor/widgets/course-carousel/course-carousel.php:193 
+#: elementor/widgets/skill-bar/skill-bar.php:95 
+#: elementor/widgets/step-flow/step-flow.php:195 
+#: elementor/widgets/team-member/team-member.php:235 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:250
+msgid "Yes"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:80 
+#: elementor/widgets/course-carousel/course-carousel.php:192 
+#: elementor/widgets/skill-bar/skill-bar.php:96 
+#: elementor/widgets/step-flow/step-flow.php:196 
+#: elementor/widgets/team-member/team-member.php:236 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:249
+msgid "No"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:89
+msgid "Accordion Box"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:94
+msgid "My Progress"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:95
+msgid "Accordion Paragraph text"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:108 
+#: elementor/widgets/blog-post/blog-post.php:231 
+#: elementor/widgets/category-icon-box/category-icon-box.php:160 
+#: elementor/widgets/category-image-box/category-image-box.php:140 
+#: elementor/widgets/course-carousel/course-carousel.php:292 
+#: elementor/widgets/course-grid/course-grid.php:204 
+#: elementor/widgets/dual-button/dual-button.php:220 
+#: elementor/widgets/pricing-table/pricing-table.php:533 
+#: elementor/widgets/step-flow/step-flow.php:208 
+#: elementor/widgets/team-member/team-member.php:374 
+#: elementor/widgets/testimonial/testimonial.php:222 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:354 
+#: elementor/widgets/video-popup/video-popup.php:146 
+#: elementor/widgets/webinar-box/webinar-box.php:172
+msgid "General"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:116 
+#: elementor/widgets/accordian/accordian.php:253 
+#: elementor/widgets/accordian/accordian.php:558 
+#: elementor/widgets/blog-post/blog-post.php:265 
+#: elementor/widgets/blog-post/blog-post.php:437 
+#: elementor/widgets/blog-post/blog-post.php:908 
+#: elementor/widgets/category-icon-box/category-icon-box.php:167 
+#: elementor/widgets/category-icon-box/category-icon-box.php:279 
+#: elementor/widgets/category-icon-box/category-icon-box.php:724 
+#: elementor/widgets/category-image-box/category-image-box.php:147 
+#: elementor/widgets/category-image-box/category-image-box.php:574 
+#: elementor/widgets/course-carousel/course-carousel.php:326 
+#: elementor/widgets/course-carousel/course-carousel.php:489 
+#: elementor/widgets/course-carousel/course-carousel.php:797 
+#: elementor/widgets/course-carousel/course-carousel.php:840 
+#: elementor/widgets/course-carousel/course-carousel.php:1227 
+#: elementor/widgets/course-grid/course-grid.php:238 
+#: elementor/widgets/course-grid/course-grid.php:458 
+#: elementor/widgets/course-grid/course-grid.php:708 
+#: elementor/widgets/course-grid/course-grid.php:751 
+#: elementor/widgets/course-search/course-search.php:77 
+#: elementor/widgets/course-search/course-search.php:186 
+#: elementor/widgets/dual-button/dual-button.php:228 
+#: elementor/widgets/dual-button/dual-button.php:337 
+#: elementor/widgets/dual-button/dual-button.php:508 
+#: elementor/widgets/mailchimp/mailchimp.php:186 
+#: elementor/widgets/mailchimp/mailchimp.php:351 
+#: elementor/widgets/pricing-table/pricing-table.php:625 
+#: elementor/widgets/pricing-table/pricing-table.php:770 
+#: elementor/widgets/pricing-table/pricing-table.php:1153 
+#: elementor/widgets/pricing-table/pricing-table.php:1195 
+#: elementor/widgets/pricing-table/pricing-table.php:1293 
+#: elementor/widgets/pricing-table/pricing-table.php:1468 
+#: elementor/widgets/pricing-table/pricing-table.php:1510 
+#: elementor/widgets/step-flow/step-flow.php:216 
+#: elementor/widgets/step-flow/step-flow.php:255 
+#: elementor/widgets/step-flow/step-flow.php:355 
+#: elementor/widgets/team-member/team-member.php:382 
+#: elementor/widgets/team-member/team-member.php:519 
+#: elementor/widgets/testimonial/testimonial.php:230 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:389 
+#: elementor/widgets/video-popup/video-popup.php:154 
+#: elementor/widgets/webinar-box/webinar-box.php:179 
+#: elementor/widgets/webinar-box/webinar-box.php:291 
+#: elementor/widgets/webinar-box/webinar-box.php:413 
+#: elementor/widgets/webinar-box/webinar-box.php:731
+msgid "Padding"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:129 
+#: elementor/widgets/blog-post/blog-post.php:467 
+#: elementor/widgets/blog-post/blog-post.php:567 
+#: elementor/widgets/blog-post/blog-post.php:643 
+#: elementor/widgets/category-icon-box/category-icon-box.php:292 
+#: elementor/widgets/category-icon-box/category-icon-box.php:522 
+#: elementor/widgets/category-image-box/category-image-box.php:372 
+#: elementor/widgets/course-carousel/course-carousel.php:567 
+#: elementor/widgets/course-carousel/course-carousel.php:628 
+#: elementor/widgets/course-carousel/course-carousel.php:872 
+#: elementor/widgets/course-grid/course-grid.php:479 
+#: elementor/widgets/course-grid/course-grid.php:540 
+#: elementor/widgets/course-grid/course-grid.php:783 
+#: elementor/widgets/testimonial/testimonial.php:478 
+#: elementor/widgets/testimonial/testimonial.php:534 
+#: elementor/widgets/testimonial/testimonial.php:598 
+#: elementor/widgets/testimonial/testimonial.php:684 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:566 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:640 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:687 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:734 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:790 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:845 
+#: elementor/widgets/webinar-box/webinar-box.php:435 
+#: elementor/widgets/webinar-box/webinar-box.php:568
+msgid "Spacing"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:148 
+#: elementor/widgets/accordian/accordian.php:275 
+#: elementor/widgets/blog-post/blog-post.php:281 
+#: elementor/widgets/blog-post/blog-post.php:494 
+#: elementor/widgets/blog-post/blog-post.php:716 
+#: elementor/widgets/blog-post/blog-post.php:804 
+#: elementor/widgets/category-icon-box/category-icon-box.php:182 
+#: elementor/widgets/category-icon-box/category-icon-box.php:333 
+#: elementor/widgets/category-icon-box/category-icon-box.php:622 
+#: elementor/widgets/category-image-box/category-image-box.php:161 
+#: elementor/widgets/category-image-box/category-image-box.php:472 
+#: elementor/widgets/course-carousel/course-carousel.php:386 
+#: elementor/widgets/course-carousel/course-carousel.php:514 
+#: elementor/widgets/course-carousel/course-carousel.php:1046 
+#: elementor/widgets/course-grid/course-grid.php:298 
+#: elementor/widgets/course-grid/course-grid.php:414 
+#: elementor/widgets/course-search/course-search.php:237 
+#: elementor/widgets/dual-button/dual-button.php:421 
+#: elementor/widgets/dual-button/dual-button.php:592 
+#: elementor/widgets/mailchimp/mailchimp.php:253 
+#: elementor/widgets/mailchimp/mailchimp.php:381 
+#: elementor/widgets/pricing-table/pricing-table.php:1370 
+#: elementor/widgets/team-member/team-member.php:251 
+#: elementor/widgets/team-member/team-member.php:423 
+#: elementor/widgets/team-member/team-member.php:883 
+#: elementor/widgets/testimonial/testimonial.php:293 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:450 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:884 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:998 
+#: elementor/widgets/video-popup/video-popup.php:273 
+#: elementor/widgets/webinar-box/webinar-box.php:194 
+#: elementor/widgets/webinar-box/webinar-box.php:629
+msgid "Normal"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:155 
+#: elementor/widgets/accordian/accordian.php:191 
+#: elementor/widgets/accordian/accordian.php:294 
+#: elementor/widgets/accordian/accordian.php:342 
+#: elementor/widgets/accordian/accordian.php:389 
+#: elementor/widgets/blog-post/blog-post.php:288 
+#: elementor/widgets/blog-post/blog-post.php:326 
+#: elementor/widgets/blog-post/blog-post.php:824 
+#: elementor/widgets/category-icon-box/category-icon-box.php:189 
+#: elementor/widgets/category-icon-box/category-icon-box.php:225 
+#: elementor/widgets/category-icon-box/category-icon-box.php:353 
+#: elementor/widgets/category-icon-box/category-icon-box.php:415 
+#: elementor/widgets/category-icon-box/category-icon-box.php:641 
+#: elementor/widgets/category-icon-box/category-icon-box.php:680 
+#: elementor/widgets/category-image-box/category-image-box.php:168 
+#: elementor/widgets/category-image-box/category-image-box.php:204 
+#: elementor/widgets/category-image-box/category-image-box.php:491 
+#: elementor/widgets/category-image-box/category-image-box.php:530 
+#: elementor/widgets/course-carousel/course-carousel.php:371 
+#: elementor/widgets/course-carousel/course-carousel.php:771 
+#: elementor/widgets/course-carousel/course-carousel.php:1064 
+#: elementor/widgets/course-carousel/course-carousel.php:1113 
+#: elementor/widgets/course-grid/course-grid.php:283 
+#: elementor/widgets/course-grid/course-grid.php:682 
+#: elementor/widgets/course-search/course-search.php:107 
+#: elementor/widgets/course-search/course-search.php:244 
+#: elementor/widgets/course-search/course-search.php:275 
+#: elementor/widgets/dual-button/dual-button.php:439 
+#: elementor/widgets/dual-button/dual-button.php:470 
+#: elementor/widgets/dual-button/dual-button.php:610 
+#: elementor/widgets/dual-button/dual-button.php:641 
+#: elementor/widgets/mailchimp/mailchimp.php:268 
+#: elementor/widgets/mailchimp/mailchimp.php:304 
+#: elementor/widgets/mailchimp/mailchimp.php:400 
+#: elementor/widgets/mailchimp/mailchimp.php:459 
+#: elementor/widgets/pricing-table/pricing-table.php:1388 
+#: elementor/widgets/pricing-table/pricing-table.php:1419 
+#: elementor/widgets/pricing-table/pricing-table.php:1533 
+#: elementor/widgets/step-flow/step-flow.php:331 
+#: elementor/widgets/step-flow/step-flow.php:411 
+#: elementor/widgets/team-member/team-member.php:271 
+#: elementor/widgets/team-member/team-member.php:305 
+#: elementor/widgets/team-member/team-member.php:430 
+#: elementor/widgets/team-member/team-member.php:466 
+#: elementor/widgets/team-member/team-member.php:602 
+#: elementor/widgets/team-member/team-member.php:901 
+#: elementor/widgets/team-member/team-member.php:931 
+#: elementor/widgets/testimonial/testimonial.php:300 
+#: elementor/widgets/testimonial/testimonial.php:336 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:457 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:494 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:1004 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:1022 
+#: elementor/widgets/webinar-box/webinar-box.php:201 
+#: elementor/widgets/webinar-box/webinar-box.php:237 
+#: elementor/widgets/webinar-box/webinar-box.php:648 
+#: elementor/widgets/webinar-box/webinar-box.php:687
+msgid "Background Color"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:184 
+#: elementor/widgets/accordian/accordian.php:323 
+#: elementor/widgets/blog-post/blog-post.php:319 
+#: elementor/widgets/blog-post/blog-post.php:516 
+#: elementor/widgets/blog-post/blog-post.php:747 
+#: elementor/widgets/blog-post/blog-post.php:838 
+#: elementor/widgets/category-icon-box/category-icon-box.php:218 
+#: elementor/widgets/category-icon-box/category-icon-box.php:396 
+#: elementor/widgets/category-icon-box/category-icon-box.php:662 
+#: elementor/widgets/category-image-box/category-image-box.php:197 
+#: elementor/widgets/category-image-box/category-image-box.php:512 
+#: elementor/widgets/course-carousel/course-carousel.php:404 
+#: elementor/widgets/course-carousel/course-carousel.php:536 
+#: elementor/widgets/course-carousel/course-carousel.php:1095 
+#: elementor/widgets/course-grid/course-grid.php:316 
+#: elementor/widgets/course-grid/course-grid.php:436 
+#: elementor/widgets/course-search/course-search.php:268 
+#: elementor/widgets/dual-button/dual-button.php:452 
+#: elementor/widgets/dual-button/dual-button.php:623 
+#: elementor/widgets/mailchimp/mailchimp.php:441 
+#: elementor/widgets/pricing-table/pricing-table.php:1401 
+#: elementor/widgets/team-member/team-member.php:285 
+#: elementor/widgets/team-member/team-member.php:459 
+#: elementor/widgets/team-member/team-member.php:913 
+#: elementor/widgets/testimonial/testimonial.php:329 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:488 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:902 
+#: elementor/widgets/video-popup/video-popup.php:304 
+#: elementor/widgets/webinar-box/webinar-box.php:230 
+#: elementor/widgets/webinar-box/webinar-box.php:669
+msgid "Hover"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:221 
+#: elementor/widgets/accordian/accordian.php:415 
+#: elementor/widgets/blog-post/blog-post.php:359 
+#: elementor/widgets/blog-post/blog-post.php:415 
+#: elementor/widgets/blog-post/blog-post.php:885 
+#: elementor/widgets/category-icon-box/category-icon-box.php:256 
+#: elementor/widgets/category-icon-box/category-icon-box.php:373 
+#: elementor/widgets/category-icon-box/category-icon-box.php:435 
+#: elementor/widgets/category-icon-box/category-icon-box.php:703 
+#: elementor/widgets/category-image-box/category-image-box.php:235 
+#: elementor/widgets/category-image-box/category-image-box.php:308 
+#: elementor/widgets/category-image-box/category-image-box.php:553 
+#: elementor/widgets/countdown/countdown.php:531 
+#: elementor/widgets/course-carousel/course-carousel.php:358 
+#: elementor/widgets/course-carousel/course-carousel.php:467 
+#: elementor/widgets/course-carousel/course-carousel.php:1146 
+#: elementor/widgets/course-grid/course-grid.php:270 
+#: elementor/widgets/course-grid/course-grid.php:379 
+#: elementor/widgets/dual-button/dual-button.php:307 
+#: elementor/widgets/dual-button/dual-button.php:357 
+#: elementor/widgets/dual-button/dual-button.php:528 
+#: elementor/widgets/mailchimp/mailchimp.php:198 
+#: elementor/widgets/mailchimp/mailchimp.php:419 
+#: elementor/widgets/mailchimp/mailchimp.php:478 
+#: elementor/widgets/pricing-table/pricing-table.php:1207 
+#: elementor/widgets/pricing-table/pricing-table.php:1313 
+#: elementor/widgets/pricing-table/pricing-table.php:1552 
+#: elementor/widgets/skill-bar/skill-bar.php:239 
+#: elementor/widgets/step-flow/step-flow.php:300 
+#: elementor/widgets/step-flow/step-flow.php:382 
+#: elementor/widgets/team-member/team-member.php:496 
+#: elementor/widgets/team-member/team-member.php:579 
+#: elementor/widgets/team-member/team-member.php:870 
+#: elementor/widgets/testimonial/testimonial.php:366 
+#: elementor/widgets/testimonial/testimonial.php:627 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:526 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:594 
+#: elementor/widgets/video-popup/video-popup.php:175 
+#: elementor/widgets/video-popup/video-popup.php:257 
+#: elementor/widgets/webinar-box/webinar-box.php:268 
+#: elementor/widgets/webinar-box/webinar-box.php:341 
+#: elementor/widgets/webinar-box/webinar-box.php:710
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:236 
+#: elementor/widgets/blog-post/blog-post.php:429 
+#: elementor/widgets/category-icon-box/category-icon-box.php:70 
+#: elementor/widgets/category-icon-box/category-icon-box.php:461 
+#: elementor/widgets/category-image-box/category-image-box.php:71 
+#: elementor/widgets/category-image-box/category-image-box.php:330 
+#: elementor/widgets/course-carousel/course-carousel.php:481 
+#: elementor/widgets/course-grid/course-grid.php:393 
+#: elementor/widgets/skill-bar/skill-bar.php:264 
+#: elementor/widgets/testimonial/testimonial.php:143 
+#: elementor/widgets/testimonial/testimonial.php:381 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:54 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:110 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:607 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:614 
+#: elementor/widgets/webinar-box/webinar-box.php:74 
+#: elementor/widgets/webinar-box/webinar-box.php:363
+msgid "Content"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:282 
+#: elementor/widgets/accordian/accordian.php:330 
+#: elementor/widgets/accordian/accordian.php:377 
+#: elementor/widgets/accordian/accordian.php:477 
+#: elementor/widgets/accordian/accordian.php:571 
+#: elementor/widgets/blog-post/blog-post.php:502 
+#: elementor/widgets/blog-post/blog-post.php:547 
+#: elementor/widgets/blog-post/blog-post.php:723 
+#: elementor/widgets/blog-post/blog-post.php:754 
+#: elementor/widgets/blog-post/blog-post.php:812 
+#: elementor/widgets/category-icon-box/category-icon-box.php:340 
+#: elementor/widgets/category-icon-box/category-icon-box.php:403 
+#: elementor/widgets/category-icon-box/category-icon-box.php:539 
+#: elementor/widgets/category-icon-box/category-icon-box.php:582 
+#: elementor/widgets/category-image-box/category-image-box.php:389 
+#: elementor/widgets/category-image-box/category-image-box.php:432 
+#: elementor/widgets/course-carousel/course-carousel.php:522 
+#: elementor/widgets/course-carousel/course-carousel.php:602 
+#: elementor/widgets/course-carousel/course-carousel.php:757 
+#: elementor/widgets/course-carousel/course-carousel.php:941 
+#: elementor/widgets/course-carousel/course-carousel.php:1053 
+#: elementor/widgets/course-carousel/course-carousel.php:1102 
+#: elementor/widgets/course-grid/course-grid.php:422 
+#: elementor/widgets/course-grid/course-grid.php:514 
+#: elementor/widgets/course-grid/course-grid.php:668 
+#: elementor/widgets/course-grid/course-grid.php:852 
+#: elementor/widgets/step-flow/step-flow.php:320 
+#: elementor/widgets/step-flow/step-flow.php:397 
+#: elementor/widgets/step-flow/step-flow.php:466 
+#: elementor/widgets/step-flow/step-flow.php:530 
+#: elementor/widgets/step-flow/step-flow.php:650 
+#: elementor/widgets/testimonial/testimonial.php:466 
+#: elementor/widgets/testimonial/testimonial.php:523 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:622 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:670 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:717 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:890 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:908 
+#: elementor/widgets/video-popup/video-popup.php:280 
+#: elementor/widgets/video-popup/video-popup.php:291 
+#: elementor/widgets/video-popup/video-popup.php:322 
+#: elementor/widgets/webinar-box/webinar-box.php:452 
+#: elementor/widgets/webinar-box/webinar-box.php:493 
+#: elementor/widgets/webinar-box/webinar-box.php:536
+msgid "Color"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:370 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:1016
+msgid "Active"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:432 
+#: elementor/widgets/category-icon-box/category-icon-box.php:50 
+#: elementor/widgets/category-icon-box/category-icon-box.php:57 
+#: elementor/widgets/category-icon-box/category-icon-box.php:271 
+#: elementor/widgets/dual-button/dual-button.php:88 
+#: elementor/widgets/dual-button/dual-button.php:154 
+#: elementor/widgets/pricing-table/pricing-table.php:87 
+#: elementor/widgets/pricing-table/pricing-table.php:104 
+#: elementor/widgets/pricing-table/pricing-table.php:295 
+#: elementor/widgets/step-flow/step-flow.php:62 
+#: elementor/widgets/step-flow/step-flow.php:229 
+#: elementor/widgets/testimonial/testimonial.php:71 
+#: elementor/widgets/video-popup/video-popup.php:56 
+#: elementor/widgets/video-popup/video-popup.php:189
+msgid "Icon"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:441 
+#: elementor/widgets/category-icon-box/category-icon-box.php:120 
+#: elementor/widgets/category-icon-box/category-icon-box.php:499 
+#: elementor/widgets/testimonial/testimonial.php:190 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:211 
+#: elementor/widgets/webinar-box/webinar-box.php:399
+msgid "Top"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:459 
+#: elementor/widgets/blog-post/blog-post.php:251 
+#: elementor/widgets/category-icon-box/category-icon-box.php:481 
+#: elementor/widgets/category-image-box/category-image-box.php:350 
+#: elementor/widgets/countdown/countdown.php:85 
+#: elementor/widgets/countdown/countdown.php:263 
+#: elementor/widgets/course-carousel/course-carousel.php:312 
+#: elementor/widgets/course-grid/course-grid.php:224 
+#: elementor/widgets/dual-button/dual-button.php:253 
+#: elementor/widgets/pricing-table/pricing-table.php:396 
+#: elementor/widgets/pricing-table/pricing-table.php:514 
+#: elementor/widgets/pricing-table/pricing-table.php:590 
+#: elementor/widgets/step-flow/step-flow.php:179 
+#: elementor/widgets/team-member/team-member.php:407 
+#: elementor/widgets/testimonial/testimonial.php:255 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:373 
+#: elementor/widgets/webinar-box/webinar-box.php:383
+msgid "Right"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:489 
+#: elementor/widgets/blog-post/blog-post.php:523 
+#: elementor/widgets/blog-post/blog-post.php:846 
+#: elementor/widgets/category-icon-box/category-icon-box.php:552 
+#: elementor/widgets/category-image-box/category-image-box.php:402 
+#: elementor/widgets/course-carousel/course-carousel.php:543 
+#: elementor/widgets/course-grid/course-grid.php:443 
+#: elementor/widgets/step-flow/step-flow.php:491 
+#: elementor/widgets/video-popup/video-popup.php:311 
+#: elementor/widgets/webinar-box/webinar-box.php:464
+msgid "Hover Color"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:501
+msgid "Active Color"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:513 
+#: elementor/widgets/category-icon-box/category-icon-box.php:313 
+#: elementor/widgets/pricing-table/pricing-table.php:704 
+#: elementor/widgets/step-flow/step-flow.php:237 
+#: elementor/widgets/testimonial/testimonial.php:447 
+#: elementor/widgets/testimonial/testimonial.php:505
+msgid "Size"
+msgstr ""
+
+#: elementor/widgets/accordian/accordian.php:531 
+#: elementor/widgets/course-carousel/course-carousel.php:1208 
+#: elementor/widgets/team-member/team-member.php:838 
+#: elementor/widgets/video-popup/video-popup.php:245
+msgid "Line Height"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:26
+msgid "Blog Post"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:68 
+#: elementor/widgets/course-grid/course-grid.php:50 
+#: elementor/widgets/dual-button/dual-button.php:192
+msgid "Layout"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:75 
+#: elementor/widgets/course-grid/course-grid.php:69
+msgid "Columns"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:78 
+#: elementor/widgets/course-grid/course-grid.php:72
+msgid "1"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:79 
+#: elementor/widgets/course-grid/course-grid.php:73
+msgid "2"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:80 
+#: elementor/widgets/course-grid/course-grid.php:74
+msgid "3"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:81 
+#: elementor/widgets/course-grid/course-grid.php:75
+msgid "4"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:90
+msgid "Post Per Page"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:103
+msgid "Descroption Length"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:126 
+#: elementor/widgets/course-carousel/course-carousel.php:50 
+#: elementor/widgets/course-grid/course-grid.php:99
+msgid "Query"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:134 
+#: elementor/widgets/course-carousel/course-carousel.php:58 
+#: elementor/widgets/course-grid/course-grid.php:107
+msgid "Categories"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:144 
+#: elementor/widgets/course-carousel/course-carousel.php:68 
+#: elementor/widgets/course-grid/course-grid.php:117
+msgid "Order By"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:147 
+#: elementor/widgets/blog-post/blog-post.php:194 
+#: elementor/widgets/course-carousel/course-carousel.php:71 
+#: elementor/widgets/course-grid/course-grid.php:120 
+#: elementor/widgets/webinar-box/webinar-box.php:121
+msgid "Date"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:149 
+#: elementor/widgets/course-carousel/course-carousel.php:73 
+#: elementor/widgets/course-grid/course-grid.php:122
+msgid "Random"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:158 
+#: elementor/widgets/course-carousel/course-carousel.php:82 
+#: elementor/widgets/course-grid/course-grid.php:131
+msgid "Order"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:161 
+#: elementor/widgets/course-carousel/course-carousel.php:85 
+#: elementor/widgets/course-grid/course-grid.php:134
+msgid "Ascending"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:162 
+#: elementor/widgets/course-carousel/course-carousel.php:86 
+#: elementor/widgets/course-grid/course-grid.php:135
+msgid "Desending"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:173 
+#: elementor/widgets/blog-post/blog-post.php:593 
+#: elementor/widgets/course-carousel/course-carousel.php:97 
+#: elementor/widgets/course-carousel/course-carousel.php:141 
+#: elementor/widgets/course-carousel/course-carousel.php:829 
+#: elementor/widgets/course-grid/course-grid.php:146 
+#: elementor/widgets/course-grid/course-grid.php:190 
+#: elementor/widgets/course-grid/course-grid.php:740 
+#: elementor/widgets/webinar-box/webinar-box.php:115 
+#: elementor/widgets/webinar-box/webinar-box.php:515
+msgid "Meta"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:181
+msgid "Author"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:183 
+#: elementor/widgets/blog-post/blog-post.php:196 
+#: elementor/widgets/blog-post/blog-post.php:208 
+#: elementor/widgets/course-carousel/course-carousel.php:107 
+#: elementor/widgets/course-carousel/course-carousel.php:119 
+#: elementor/widgets/course-carousel/course-carousel.php:131 
+#: elementor/widgets/course-carousel/course-carousel.php:143 
+#: elementor/widgets/course-grid/course-grid.php:156 
+#: elementor/widgets/course-grid/course-grid.php:168 
+#: elementor/widgets/course-grid/course-grid.php:180 
+#: elementor/widgets/course-grid/course-grid.php:192 
+#: elementor/widgets/pricing-table/pricing-table.php:476 
+#: elementor/widgets/pricing-table/pricing-table.php:478 
+#: elementor/widgets/team-member/team-member.php:360 
+#: elementor/widgets/testimonial/testimonial.php:61 
+#: elementor/widgets/testimonial/testimonial.php:88 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:156 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:167 
+#: elementor/widgets/video-popup/video-popup.php:121
+msgid "Show"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:184 
+#: elementor/widgets/blog-post/blog-post.php:197 
+#: elementor/widgets/blog-post/blog-post.php:209 
+#: elementor/widgets/course-carousel/course-carousel.php:108 
+#: elementor/widgets/course-carousel/course-carousel.php:120 
+#: elementor/widgets/course-carousel/course-carousel.php:132 
+#: elementor/widgets/course-carousel/course-carousel.php:144 
+#: elementor/widgets/course-grid/course-grid.php:157 
+#: elementor/widgets/course-grid/course-grid.php:169 
+#: elementor/widgets/course-grid/course-grid.php:181 
+#: elementor/widgets/course-grid/course-grid.php:193 
+#: elementor/widgets/pricing-table/pricing-table.php:479 
+#: elementor/widgets/team-member/team-member.php:361 
+#: elementor/widgets/testimonial/testimonial.php:62 
+#: elementor/widgets/testimonial/testimonial.php:89 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:157 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:168 
+#: elementor/widgets/video-popup/video-popup.php:122
+msgid "Hide"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:206 
+#: elementor/widgets/blog-post/blog-post.php:780 
+#: elementor/widgets/category-icon-box/category-icon-box.php:132 
+#: elementor/widgets/category-icon-box/category-icon-box.php:604 
+#: elementor/widgets/category-image-box/category-image-box.php:112 
+#: elementor/widgets/category-image-box/category-image-box.php:454 
+#: elementor/widgets/pricing-table/pricing-table.php:1274 
+#: elementor/widgets/webinar-box/webinar-box.php:144 
+#: elementor/widgets/webinar-box/webinar-box.php:611
+msgid "Button"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:218 
+#: elementor/widgets/pricing-table/pricing-table.php:422
+msgid "Button Text"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:220 
+#: elementor/widgets/blog-post/blog-post.php:970
+msgid "Read More"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:221
+msgid "Type your button text"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:239 
+#: elementor/widgets/category-icon-box/category-icon-box.php:469 
+#: elementor/widgets/category-image-box/category-image-box.php:338 
+#: elementor/widgets/countdown/countdown.php:251 
+#: elementor/widgets/course-carousel/course-carousel.php:300 
+#: elementor/widgets/course-grid/course-grid.php:212 
+#: elementor/widgets/dual-button/dual-button.php:240 
+#: elementor/widgets/pricing-table/pricing-table.php:577 
+#: elementor/widgets/step-flow/step-flow.php:167 
+#: elementor/widgets/team-member/team-member.php:395 
+#: elementor/widgets/testimonial/testimonial.php:242 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:361 
+#: elementor/widgets/webinar-box/webinar-box.php:371
+msgid "Alignment"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:243 
+#: elementor/widgets/category-icon-box/category-icon-box.php:116 
+#: elementor/widgets/category-icon-box/category-icon-box.php:473 
+#: elementor/widgets/category-image-box/category-image-box.php:342 
+#: elementor/widgets/countdown/countdown.php:255 
+#: elementor/widgets/course-carousel/course-carousel.php:304 
+#: elementor/widgets/course-grid/course-grid.php:216 
+#: elementor/widgets/dual-button/dual-button.php:245 
+#: elementor/widgets/pricing-table/pricing-table.php:388 
+#: elementor/widgets/pricing-table/pricing-table.php:510 
+#: elementor/widgets/pricing-table/pricing-table.php:582 
+#: elementor/widgets/step-flow/step-flow.php:171 
+#: elementor/widgets/team-member/team-member.php:399 
+#: elementor/widgets/testimonial/testimonial.php:247 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:365 
+#: elementor/widgets/webinar-box/webinar-box.php:375
+msgid "Left"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:247 
+#: elementor/widgets/category-icon-box/category-icon-box.php:477 
+#: elementor/widgets/category-image-box/category-image-box.php:346 
+#: elementor/widgets/countdown/countdown.php:259 
+#: elementor/widgets/course-carousel/course-carousel.php:308 
+#: elementor/widgets/course-grid/course-grid.php:220 
+#: elementor/widgets/dual-button/dual-button.php:249 
+#: elementor/widgets/pricing-table/pricing-table.php:392 
+#: elementor/widgets/pricing-table/pricing-table.php:586 
+#: elementor/widgets/step-flow/step-flow.php:175 
+#: elementor/widgets/team-member/team-member.php:403 
+#: elementor/widgets/testimonial/testimonial.php:251 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:369 
+#: elementor/widgets/webinar-box/webinar-box.php:379
+msgid "Center"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:300 
+#: elementor/widgets/blog-post/blog-post.php:338 
+#: elementor/widgets/blog-post/blog-post.php:407 
+#: elementor/widgets/blog-post/blog-post.php:875 
+#: elementor/widgets/course-carousel/course-carousel.php:350 
+#: elementor/widgets/course-carousel/course-carousel.php:459 
+#: elementor/widgets/course-carousel/course-carousel.php:864 
+#: elementor/widgets/course-carousel/course-carousel.php:1076 
+#: elementor/widgets/course-carousel/course-carousel.php:1125 
+#: elementor/widgets/course-grid/course-grid.php:262 
+#: elementor/widgets/course-grid/course-grid.php:371 
+#: elementor/widgets/course-grid/course-grid.php:775 
+#: elementor/widgets/pricing-table/pricing-table.php:1220 
+#: elementor/widgets/step-flow/step-flow.php:292 
+#: elementor/widgets/step-flow/step-flow.php:371 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:470 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:507 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:587
+msgid "Border"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:309 
+#: elementor/widgets/blog-post/blog-post.php:347 
+#: elementor/widgets/blog-post/blog-post.php:899 
+#: elementor/widgets/countdown/countdown.php:544 
+#: elementor/widgets/course-carousel/course-carousel.php:394 
+#: elementor/widgets/course-carousel/course-carousel.php:1085 
+#: elementor/widgets/course-carousel/course-carousel.php:1134 
+#: elementor/widgets/course-grid/course-grid.php:306 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:479 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:516
+msgid "Box Shadow"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:375 
+#: elementor/widgets/category-image-box/category-image-box.php:51 
+#: elementor/widgets/category-image-box/category-image-box.php:250 
+#: elementor/widgets/countdown/countdown.php:402 
+#: elementor/widgets/countdown/countdown.php:434 
+#: elementor/widgets/course-carousel/course-carousel.php:427 
+#: elementor/widgets/course-grid/course-grid.php:339 
+#: elementor/widgets/pricing-table/pricing-table.php:91 
+#: elementor/widgets/pricing-table/pricing-table.php:119 
+#: elementor/widgets/team-member/team-member.php:114 
+#: elementor/widgets/team-member/team-member.php:511 
+#: elementor/widgets/testimonial/testimonial.php:164 
+#: elementor/widgets/testimonial/testimonial.php:572 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:541 
+#: elementor/widgets/webinar-box/webinar-box.php:51 
+#: elementor/widgets/webinar-box/webinar-box.php:283
+msgid "Image"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:383 
+#: elementor/widgets/category-image-box/category-image-box.php:271 
+#: elementor/widgets/course-carousel/course-carousel.php:435 
+#: elementor/widgets/course-carousel/course-carousel.php:1170 
+#: elementor/widgets/course-grid/course-grid.php:347 
+#: elementor/widgets/mailchimp/mailchimp.php:118 
+#: elementor/widgets/step-flow/step-flow.php:585 
+#: elementor/widgets/team-member/team-member.php:531 
+#: elementor/widgets/team-member/team-member.php:814 
+#: elementor/widgets/testimonial/testimonial.php:580 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:548 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:947 
+#: elementor/widgets/video-popup/video-popup.php:221 
+#: elementor/widgets/webinar-box/webinar-box.php:304
+msgid "Width"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:459 
+#: elementor/widgets/blog-post/blog-post.php:559 
+#: elementor/widgets/blog-post/blog-post.php:624 
+#: elementor/widgets/blog-post/blog-post.php:791 
+#: elementor/widgets/course-carousel/course-carousel.php:559 
+#: elementor/widgets/course-carousel/course-carousel.php:617 
+#: elementor/widgets/course-carousel/course-carousel.php:668 
+#: elementor/widgets/course-carousel/course-carousel.php:786 
+#: elementor/widgets/course-carousel/course-carousel.php:964 
+#: elementor/widgets/course-grid/course-grid.php:471 
+#: elementor/widgets/course-grid/course-grid.php:529 
+#: elementor/widgets/course-grid/course-grid.php:579 
+#: elementor/widgets/course-grid/course-grid.php:697 
+#: elementor/widgets/course-grid/course-grid.php:875 
+#: elementor/widgets/course-search/course-search.php:143 
+#: elementor/widgets/dual-button/dual-button.php:291 
+#: elementor/widgets/dual-button/dual-button.php:403 
+#: elementor/widgets/dual-button/dual-button.php:574 
+#: elementor/widgets/mailchimp/mailchimp.php:219 
+#: elementor/widgets/pricing-table/pricing-table.php:1573
+msgid "Typography"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:601
+msgid "Author & Date"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:610 
+#: elementor/widgets/category-icon-box/category-icon-box.php:737 
+#: elementor/widgets/category-image-box/category-image-box.php:258 
+#: elementor/widgets/category-image-box/category-image-box.php:587 
+#: elementor/widgets/course-carousel/course-carousel.php:337 
+#: elementor/widgets/course-carousel/course-carousel.php:812 
+#: elementor/widgets/course-carousel/course-carousel.php:851 
+#: elementor/widgets/course-grid/course-grid.php:249 
+#: elementor/widgets/course-grid/course-grid.php:723 
+#: elementor/widgets/course-grid/course-grid.php:762 
+#: elementor/widgets/course-search/course-search.php:174 
+#: elementor/widgets/mailchimp/mailchimp.php:339 
+#: elementor/widgets/pricing-table/pricing-table.php:1281 
+#: elementor/widgets/pricing-table/pricing-table.php:1456 
+#: elementor/widgets/testimonial/testimonial.php:435 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:401 
+#: elementor/widgets/video-popup/video-popup.php:197 
+#: elementor/widgets/webinar-box/webinar-box.php:523 
+#: elementor/widgets/webinar-box/webinar-box.php:744
+msgid "Margin"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:632 
+#: elementor/widgets/blog-post/blog-post.php:734 
+#: elementor/widgets/blog-post/blog-post.php:765 
+#: elementor/widgets/course-carousel/course-carousel.php:679 
+#: elementor/widgets/course-carousel/course-carousel.php:952 
+#: elementor/widgets/course-grid/course-grid.php:590 
+#: elementor/widgets/course-grid/course-grid.php:863 
+#: elementor/widgets/course-search/course-search.php:255 
+#: elementor/widgets/course-search/course-search.php:286 
+#: elementor/widgets/pricing-table/pricing-table.php:735 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:764 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:819 
+#: elementor/widgets/webinar-box/webinar-box.php:548
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:666 
+#: elementor/widgets/course-carousel/course-carousel.php:693 
+#: elementor/widgets/course-carousel/course-carousel.php:895 
+#: elementor/widgets/course-grid/course-grid.php:604 
+#: elementor/widgets/course-grid/course-grid.php:806 
+#: elementor/widgets/dual-button/dual-button.php:382 
+#: elementor/widgets/dual-button/dual-button.php:553 
+#: elementor/widgets/team-member/team-member.php:850 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:774 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:829 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:865 
+#: elementor/widgets/video-popup/video-popup.php:209
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:689 
+#: elementor/widgets/course-carousel/course-carousel.php:719 
+#: elementor/widgets/course-carousel/course-carousel.php:918 
+#: elementor/widgets/course-grid/course-grid.php:630 
+#: elementor/widgets/course-grid/course-grid.php:829 
+#: elementor/widgets/dual-button/dual-button.php:369 
+#: elementor/widgets/dual-button/dual-button.php:540 
+#: elementor/widgets/webinar-box/webinar-box.php:588
+msgid "Icon Spacing"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:858
+msgid "Hover Background Color"
+msgstr ""
+
+#: elementor/widgets/blog-post/blog-post.php:985
+msgid "No Post Found"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:26
+msgid "Category Icon Box"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:77 
+#: elementor/widgets/category-image-box/category-image-box.php:78 
+#: elementor/widgets/category-image-box/category-image-box.php:363
+msgid "Category Name"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:79 
+#: elementor/widgets/category-image-box/category-image-box.php:80
+msgid "Web Design"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:80 
+#: elementor/widgets/category-image-box/category-image-box.php:81
+msgid "Enter category title"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:88 
+#: elementor/widgets/category-image-box/category-image-box.php:89 
+#: elementor/widgets/category-image-box/category-image-box.php:423
+msgid "Number of Courses"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:90 
+#: elementor/widgets/category-image-box/category-image-box.php:91
+msgid "2 Courses"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:91 
+#: elementor/widgets/category-image-box/category-image-box.php:92
+msgid "Enter number of courses"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:101 
+#: elementor/widgets/category-image-box/category-image-box.php:100 
+#: elementor/widgets/team-member/team-member.php:179 
+#: elementor/widgets/webinar-box/webinar-box.php:103
+msgid "Title Link"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:103 
+#: elementor/widgets/category-icon-box/category-icon-box.php:151 
+#: elementor/widgets/category-image-box/category-image-box.php:102 
+#: elementor/widgets/category-image-box/category-image-box.php:131 
+#: elementor/widgets/webinar-box/webinar-box.php:105 
+#: elementor/widgets/webinar-box/webinar-box.php:163
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:111 
+#: elementor/widgets/dual-button/dual-button.php:101 
+#: elementor/widgets/dual-button/dual-button.php:167
+msgid "Icon Position"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:139 
+#: elementor/widgets/category-image-box/category-image-box.php:119 
+#: elementor/widgets/dual-button/dual-button.php:66 
+#: elementor/widgets/dual-button/dual-button.php:132 
+#: elementor/widgets/pricing-table/pricing-table.php:317 
+#: elementor/widgets/webinar-box/webinar-box.php:151
+msgid "Text"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:141 
+#: elementor/widgets/category-image-box/category-image-box.php:121 
+#: elementor/widgets/webinar-box/webinar-box.php:153
+msgid "Enter button text"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:149 
+#: elementor/widgets/category-image-box/category-image-box.php:129 
+#: elementor/widgets/dual-button/dual-button.php:76 
+#: elementor/widgets/dual-button/dual-button.php:142 
+#: elementor/widgets/pricing-table/pricing-table.php:436 
+#: elementor/widgets/step-flow/step-flow.php:118 
+#: elementor/widgets/webinar-box/webinar-box.php:161
+msgid "Link"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:496 
+#: elementor/widgets/webinar-box/webinar-box.php:396
+msgid "Vertical Alignment"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:500 
+#: elementor/widgets/webinar-box/webinar-box.php:400
+msgid "Middle"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:501 
+#: elementor/widgets/countdown/countdown.php:89 
+#: elementor/widgets/webinar-box/webinar-box.php:401
+msgid "Bottom"
+msgstr ""
+
+#: elementor/widgets/category-icon-box/category-icon-box.php:629 
+#: elementor/widgets/category-icon-box/category-icon-box.php:669 
+#: elementor/widgets/category-image-box/category-image-box.php:479 
+#: elementor/widgets/category-image-box/category-image-box.php:519 
+#: elementor/widgets/course-search/course-search.php:118 
+#: elementor/widgets/dual-button/dual-button.php:428 
+#: elementor/widgets/dual-button/dual-button.php:459 
+#: elementor/widgets/dual-button/dual-button.php:599 
+#: elementor/widgets/dual-button/dual-button.php:630 
+#: elementor/widgets/mailchimp/mailchimp.php:227 
+#: elementor/widgets/mailchimp/mailchimp.php:388 
+#: elementor/widgets/mailchimp/mailchimp.php:448 
+#: elementor/widgets/pricing-table/pricing-table.php:541 
+#: elementor/widgets/pricing-table/pricing-table.php:813 
+#: elementor/widgets/pricing-table/pricing-table.php:872 
+#: elementor/widgets/pricing-table/pricing-table.php:940 
+#: elementor/widgets/pricing-table/pricing-table.php:981 
+#: elementor/widgets/pricing-table/pricing-table.php:1066 
+#: elementor/widgets/pricing-table/pricing-table.php:1106 
+#: elementor/widgets/pricing-table/pricing-table.php:1165 
+#: elementor/widgets/pricing-table/pricing-table.php:1242 
+#: elementor/widgets/pricing-table/pricing-table.php:1377 
+#: elementor/widgets/pricing-table/pricing-table.php:1408 
+#: elementor/widgets/pricing-table/pricing-table.php:1480 
+#: elementor/widgets/pricing-table/pricing-table.php:1522 
+#: elementor/widgets/skill-bar/skill-bar.php:106 
+#: elementor/widgets/skill-bar/skill-bar.php:272 
+#: elementor/widgets/team-member/team-member.php:258 
+#: elementor/widgets/team-member/team-member.php:292 
+#: elementor/widgets/team-member/team-member.php:656 
+#: elementor/widgets/team-member/team-member.php:715 
+#: elementor/widgets/team-member/team-member.php:764 
+#: elementor/widgets/team-member/team-member.php:890 
+#: elementor/widgets/team-member/team-member.php:920 
+#: elementor/widgets/testimonial/testimonial.php:407 
+#: elementor/widgets/testimonial/testimonial.php:665 
+#: elementor/widgets/testimonial/testimonial.php:705 
+#: elementor/widgets/webinar-box/webinar-box.php:636 
+#: elementor/widgets/webinar-box/webinar-box.php:676
+msgid "Text Color"
+msgstr ""
+
+#: elementor/widgets/category-image-box/category-image-box.php:26
+msgid "Category Image Box"
+msgstr ""
+
+#: elementor/widgets/category-image-box/category-image-box.php:58 
+#: elementor/widgets/video-popup/video-popup.php:132 
+#: elementor/widgets/webinar-box/webinar-box.php:58
+msgid "Choose Image"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:30
+msgid "Countdown"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:54 
+#: elementor/widgets/countdown/countdown.php:61 
+#: elementor/widgets/webinar-box/webinar-box.php:132
+msgid "Time"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:64
+msgid "Set the due date and time"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:73
+msgid "Countdown Settings"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:80
+msgid "Label Position"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:102
+msgid "Label Space"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:114
+msgid "Label Space Top"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:136
+msgid "Label Space Left"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:159
+msgid "Show Label Days?"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:169
+msgid "Label Days"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:170
+msgid "Set the label for days."
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:172
+msgid "Days"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:182
+msgid "Show Label Hours?"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:192
+msgid "Label Hours"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:193
+msgid "Set the label for hours."
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:195
+msgid "Hours"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:205
+msgid "Show Label Minutes?"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:215
+msgid "Label Minutes"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:216
+msgid "Set the label for minutes."
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:218
+msgid "Minutes"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:228
+msgid "Show Label Seconds?"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:238
+msgid "Label Seconds"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:239
+msgid "Set the label for seconds."
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:241
+msgid "Seconds"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:276
+msgid "Show Separator?"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:287
+msgid "Separator"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:298
+msgid "Separator Color"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:312
+msgid "Separator Font Size"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:327
+msgid "Separator Position"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:340
+msgid "Position Top"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:362
+msgid "Position Right"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:387
+msgid "End Action"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:394
+msgid "End Action Type"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:397
+msgid "Choose which action you want to at the end of countdown."
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:399 
+#: elementor/widgets/pricing-table/pricing-table.php:180 
+#: elementor/widgets/step-flow/step-flow.php:605
+msgid "None"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:400
+msgid "Message"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:401 
+#: elementor/widgets/countdown/countdown.php:422
+msgid "Redirection Link"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:410
+msgid "Countdown End Message"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:412
+msgid "Countdown End!"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:413
+msgid "Type your message here"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:424
+msgid "https://siteurl.com/"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:462
+msgid "Countdown Common Style"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:469
+msgid "Box Width"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:491
+msgid "Box Height"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:514 
+#: elementor/widgets/countdown/countdown.php:623 
+#: elementor/widgets/countdown/countdown.php:687 
+#: elementor/widgets/countdown/countdown.php:751 
+#: elementor/widgets/countdown/countdown.php:815 
+#: elementor/widgets/pricing-table/pricing-table.php:638 
+#: elementor/widgets/pricing-table/pricing-table.php:783 
+#: elementor/widgets/pricing-table/pricing-table.php:1229 
+#: elementor/widgets/video-popup/video-popup.php:370
+msgid "Background"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:523 
+#: elementor/widgets/countdown/countdown.php:632 
+#: elementor/widgets/countdown/countdown.php:696 
+#: elementor/widgets/countdown/countdown.php:760 
+#: elementor/widgets/countdown/countdown.php:824
+msgid "Box Border"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:551 
+#: elementor/widgets/countdown/countdown.php:640 
+#: elementor/widgets/countdown/countdown.php:704 
+#: elementor/widgets/countdown/countdown.php:768 
+#: elementor/widgets/countdown/countdown.php:832
+msgid "Time Color"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:570 
+#: elementor/widgets/countdown/countdown.php:658 
+#: elementor/widgets/countdown/countdown.php:722 
+#: elementor/widgets/countdown/countdown.php:786 
+#: elementor/widgets/countdown/countdown.php:850
+msgid "Label Color"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:588
+msgid "Spacing Between Box"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:600
+msgid "Box Padding"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:615
+msgid "Days Style"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:679
+msgid "Hours Style"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:743
+msgid "Minutes Style"
+msgstr ""
+
+#: elementor/widgets/countdown/countdown.php:807
+msgid "Seconds Style"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:24
+msgid "Course Carousel"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:105 
+#: elementor/widgets/course-carousel/course-carousel.php:590 
+#: elementor/widgets/course-grid/course-grid.php:154 
+#: elementor/widgets/course-grid/course-grid.php:502 
+#: elementor/widgets/pricing-table/pricing-table.php:219 
+#: elementor/widgets/pricing-table/pricing-table.php:793
+msgid "Price"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:117 
+#: elementor/widgets/course-carousel/course-carousel.php:655 
+#: elementor/widgets/course-grid/course-grid.php:166 
+#: elementor/widgets/course-grid/course-grid.php:566 
+#: elementor/widgets/testimonial/testimonial.php:86 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:97 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:165 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:756
+msgid "Rating"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:129 
+#: elementor/widgets/course-carousel/course-carousel.php:745 
+#: elementor/widgets/course-grid/course-grid.php:178 
+#: elementor/widgets/course-grid/course-grid.php:656
+msgid "Difficulty Level"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:156
+msgid "Options"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:162 
+#: elementor/widgets/course-carousel/course-carousel.php:260 
+#: elementor/widgets/course-carousel/course-carousel.php:279
+msgid "Number of Items"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:173 
+#: elementor/widgets/course-carousel/course-carousel.php:974
+msgid "Navigation Arrow"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:182
+msgid "Navigation Dots"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:196 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:253
+msgid "Pause on Hover?"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:202 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:259
+msgid "Center Mode"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:211 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:268
+msgid "Center padding"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:226
+msgid "Autoplay"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:236 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:294
+msgid "Autoplay Speed"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:244
+msgid "Autoplay Animation Speed"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:252 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:313
+msgid "Tablet"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:271 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:332
+msgid "Mobile Phone"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:412 
+#: elementor/widgets/course-grid/course-grid.php:324
+msgid "Hover Box Shadow"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:985 
+#: elementor/widgets/course-search/course-search.php:216
+msgid "Font Size"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:1004
+msgid "Left Arrow Position"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:1023
+msgid "Right Arrow Position"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:1189 
+#: elementor/widgets/course-search/course-search.php:89 
+#: elementor/widgets/course-search/course-search.php:198 
+#: elementor/widgets/mailchimp/mailchimp.php:150 
+#: elementor/widgets/skill-bar/skill-bar.php:201 
+#: elementor/widgets/team-member/team-member.php:826 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:965 
+#: elementor/widgets/video-popup/video-popup.php:233
+msgid "Height"
+msgstr ""
+
+#: elementor/widgets/course-carousel/course-carousel.php:1321 
+#: elementor/widgets/course-grid/course-grid.php:949
+msgid "Free"
+msgstr ""
+
+#: elementor/widgets/course-grid/course-grid.php:24
+msgid "Course Grid"
+msgstr ""
+
+#: elementor/widgets/course-grid/course-grid.php:57 
+#: elementor/widgets/step-flow/step-flow.php:567
+msgid "Style"
+msgstr ""
+
+#: elementor/widgets/course-grid/course-grid.php:60
+msgid "Layout 1"
+msgstr ""
+
+#: elementor/widgets/course-grid/course-grid.php:84
+msgid "Course Per Page"
+msgstr ""
+
+#: elementor/widgets/course-search/course-search.php:23
+msgid "Courses Search"
+msgstr ""
+
+#: elementor/widgets/course-search/course-search.php:48
+msgid "Placeholder"
+msgstr ""
+
+#: elementor/widgets/course-search/course-search.php:56 
+#: elementor/widgets/course-search/course-search.php:60
+msgid "Placeholder Text"
+msgstr ""
+
+#: elementor/widgets/course-search/course-search.php:69
+msgid "Input Box"
+msgstr ""
+
+#: elementor/widgets/course-search/course-search.php:129 
+#: elementor/widgets/mailchimp/mailchimp.php:238
+msgid "Placeholder Text Color"
+msgstr ""
+
+#: elementor/widgets/course-search/course-search.php:166 
+#: elementor/widgets/mailchimp/mailchimp.php:331
+msgid "Submit Button"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:26
+msgid "Dual Button"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:49
+msgid "Dual Buttons"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:59
+msgid "Primary"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:106 
+#: elementor/widgets/dual-button/dual-button.php:172
+msgid "Before"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:110 
+#: elementor/widgets/dual-button/dual-button.php:176
+msgid "After"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:125
+msgid "Secondary"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:197
+msgid "Horizontal"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:201
+msgid "Vertical"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:265
+msgid "Space Between Buttons"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:329
+msgid "Primary Button"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:481 
+#: elementor/widgets/dual-button/dual-button.php:652 
+#: elementor/widgets/pricing-table/pricing-table.php:1430 
+#: elementor/widgets/team-member/team-member.php:318 
+#: elementor/widgets/team-member/team-member.php:942
+msgid "Border Color"
+msgstr ""
+
+#: elementor/widgets/dual-button/dual-button.php:500
+msgid "Secondary Button"
+msgstr ""
+
+#: elementor/widgets/mailchimp/mailchimp.php:25 
+#: elementor/widgets/mailchimp/mailchimp.php:53
+msgid "Mailchimp"
+msgstr ""
+
+#: elementor/widgets/mailchimp/mailchimp.php:53
+msgid "Missing Notice"
+msgstr ""
+
+#: elementor/widgets/mailchimp/mailchimp.php:64
+#, php-format
+msgid ""
+"Hello %2$s, looks like %1$s is missing in your site. Please click on the "
+"link below and install/activate %1$s. Make sure to refresh this page after "
+"installation or activation."
+msgstr ""
+
+#: elementor/widgets/mailchimp/mailchimp.php:88
+msgid "Select Your Form"
+msgstr ""
+
+#: elementor/widgets/mailchimp/mailchimp.php:98
+msgid "HTML Class"
+msgstr ""
+
+#: elementor/widgets/mailchimp/mailchimp.php:101
+msgid "Add CSS custom class to the form."
+msgstr ""
+
+#: elementor/widgets/mailchimp/mailchimp.php:110
+msgid "Form Fields"
+msgstr ""
+
+#: elementor/widgets/mailchimp/mailchimp.php:168
+msgid "Spacing Bottom"
+msgstr ""
+
+#: elementor/widgets/mailchimp/mailchimp.php:289
+msgid "Focus"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:31
+msgid "Pricing Table"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:60 
+#: elementor/widgets/pricing-table/pricing-table.php:609
+msgid "Header"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:71
+msgid "Basic"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:81
+msgid "Media Type"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:151 
+#: elementor/widgets/pricing-table/pricing-table.php:255 
+#: elementor/widgets/pricing-table/pricing-table.php:505 
+#: elementor/widgets/pricing-table/pricing-table.php:853 
+#: elementor/widgets/pricing-table/pricing-table.php:919
+msgid "Position"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:155
+msgid "After Title"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:156
+msgid "Before Title"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:168 
+#: elementor/widgets/pricing-table/pricing-table.php:754
+msgid "Pricing"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:176 
+#: elementor/widgets/pricing-table/pricing-table.php:833
+msgid "Currency"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:181
+msgctxt "Currency Symbol"
+msgid "Baht"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:182
+msgctxt "Currency Symbol"
+msgid "BD Taka"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:183
+msgctxt "Currency Symbol"
+msgid "Dollar"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:184
+msgctxt "Currency Symbol"
+msgid "Euro"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:185
+msgctxt "Currency Symbol"
+msgid "Franc"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:186
+msgctxt "Currency Symbol"
+msgid "Guilder"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:187
+msgctxt "Currency Symbol"
+msgid "Krona"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:188
+msgctxt "Currency Symbol"
+msgid "Lira"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:189
+msgctxt "Currency Symbol"
+msgid "Peseta"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:190
+msgctxt "Currency Symbol"
+msgid "Peso"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:191
+msgctxt "Currency Symbol"
+msgid "Pound Sterling"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:192
+msgctxt "Currency Symbol"
+msgid "Real"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:193
+msgctxt "Currency Symbol"
+msgid "Ruble"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:194
+msgctxt "Currency Symbol"
+msgid "Rupee"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:195
+msgctxt "Currency Symbol"
+msgid "Rupee (Indian)"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:196
+msgctxt "Currency Symbol"
+msgid "Shekel"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:197
+msgctxt "Currency Symbol"
+msgid "Won"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:198
+msgctxt "Currency Symbol"
+msgid "Yen/Yuan"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:199 
+#: elementor/widgets/step-flow/step-flow.php:606
+msgid "Custom"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:208
+msgid "Custom Symbol"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:231 
+#: elementor/widgets/pricing-table/pricing-table.php:892
+msgid "Original Price"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:243 
+#: elementor/widgets/pricing-table/pricing-table.php:961
+msgid "Period"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:245
+msgid "Per Month"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:259
+msgid "After Header"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:260
+msgid "Before Button"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:273 
+#: elementor/widgets/pricing-table/pricing-table.php:1004
+msgid "Features & Description"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:282 
+#: elementor/widgets/pricing-table/pricing-table.php:1014
+msgid "Features"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:319 
+#: elementor/widgets/pricing-table/pricing-table.php:360
+msgid "Exciting Feature"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:329
+msgid "Tooltip Text"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:347
+msgid "Standard Feature"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:351
+msgid "Another Great Feature"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:352
+msgid ""
+"It is a long established fact that a reader will be distracted by the "
+"readable content of a page when looking at its layout."
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:356
+msgid "Obsolete Feature"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:372
+msgid ""
+"It is a long established fact that a reader will be distracted by the "
+"readable content of a page when looking at its layout. The point of using "
+"Lorem Ipsum is that it has a more-or-less normal distribution of letters, as "
+"opposed to using 'Content here, content here', making it look like readable "
+"English."
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:373
+msgid "Type description"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:383
+msgid "Features Alignment"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:414 
+#: elementor/widgets/pricing-table/pricing-table.php:1265
+msgid "Footer"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:424
+msgid "Subscribe"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:425
+msgid "Type button text here"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:452 
+#: elementor/widgets/pricing-table/pricing-table.php:1447
+msgid "Footer Description"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:469 
+#: elementor/widgets/pricing-table/pricing-table.php:1502 
+#: elementor/widgets/step-flow/step-flow.php:76 
+#: elementor/widgets/step-flow/step-flow.php:78 
+#: elementor/widgets/step-flow/step-flow.php:344
+msgid "Badge"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:489
+msgid "Badge Text"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:491
+msgid "Recommended"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:492
+msgid "Type badge text"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:560
+msgid "Overflow"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:564 
+#: elementor/widgets/testimonial/testimonial.php:133 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:196
+msgid "Default"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:565
+msgid "Hidden"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:617
+msgid "Container"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:656 
+#: elementor/widgets/pricing-table/pricing-table.php:723 
+#: elementor/widgets/pricing-table/pricing-table.php:801 
+#: elementor/widgets/pricing-table/pricing-table.php:969 
+#: elementor/widgets/pricing-table/pricing-table.php:1054 
+#: elementor/widgets/pricing-table/pricing-table.php:1135 
+#: elementor/widgets/step-flow/step-flow.php:273 
+#: elementor/widgets/step-flow/step-flow.php:454 
+#: elementor/widgets/team-member/team-member.php:553 
+#: elementor/widgets/team-member/team-member.php:644 
+#: elementor/widgets/team-member/team-member.php:703 
+#: elementor/widgets/team-member/team-member.php:752 
+#: elementor/widgets/testimonial/testimonial.php:271 
+#: elementor/widgets/testimonial/testimonial.php:389
+msgid "Bottom Spacing"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:668
+msgid "Title Color"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:695
+msgid "Media"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:762
+msgid "Pricing Area"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:841 
+#: elementor/widgets/pricing-table/pricing-table.php:900
+msgid "Side Spacing"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:1021
+msgid "Container Bottom Spacing"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:1033
+msgid "Container Padding"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:1086
+msgid "List"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:1094 
+#: elementor/widgets/skill-bar/skill-bar.php:220
+msgid "Spacing Between"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:1187
+msgid "Features Tooltip"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:1341 
+#: elementor/widgets/pricing-table/pricing-table.php:1613
+msgid "Offset Y"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:1581 
+#: elementor/widgets/step-flow/step-flow.php:603
+msgid "Offset"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:1592
+msgid "Offset X"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:1636
+msgid "Rotate"
+msgstr ""
+
+#: elementor/widgets/pricing-table/pricing-table.php:1649
+msgid "Rotate Z"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:25
+msgid "Skill Bar"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:51
+msgid "Skills"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:62 
+#: elementor/widgets/team-member/team-member.php:137 
+#: elementor/widgets/team-member/team-member.php:636 
+#: elementor/widgets/testimonial/testimonial.php:198 
+#: elementor/widgets/testimonial/testimonial.php:657 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:63 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:662
+msgid "Name"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:63 
+#: elementor/widgets/testimonial/testimonial.php:129 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:192
+msgid "Design"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:64
+msgid "Type a skill name"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:71
+msgid "Level (Out Of 100)"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:93 
+#: elementor/widgets/team-member/team-member.php:233
+msgid "Want To Customize?"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:98
+msgid ""
+"You can customize this skill bar color from here or customize from Style tab"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:119 
+#: elementor/widgets/skill-bar/skill-bar.php:283
+msgid "Level Color"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:132 
+#: elementor/widgets/skill-bar/skill-bar.php:294
+msgid "Base Color"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:177
+msgid "Text Position"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:181
+msgid "Text Inside"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:182
+msgid "Text Outside"
+msgstr ""
+
+#: elementor/widgets/skill-bar/skill-bar.php:193
+msgid "Skill Bars"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:27 
+#: elementor/widgets/step-flow/step-flow.php:54
+msgid "Step Flow"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:79
+msgid "Keep it blank, if you want to remove the Badge"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:80
+msgid "Step 1"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:94
+msgid "Start Marketing"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:130
+msgid "Title HTML Tag"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:135
+msgid "H1"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:139
+msgid "H2"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:143
+msgid "H3"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:147
+msgid "H4"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:151
+msgid "H5"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:155
+msgid "H6"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:193
+msgid "Show Direction"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:438
+msgid "Title & Description"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:477
+msgid "Link Color"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:559
+msgid "Direction"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:570
+msgid "Solid"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:571
+msgid "Dotted"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:572
+msgid "Dashed"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:616
+msgid "Offset Top"
+msgstr ""
+
+#: elementor/widgets/step-flow/step-flow.php:632
+msgid "Offset Left"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:31
+msgid "Teacher"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:57
+msgid "500px"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:58
+msgid "Apple"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:59
+msgid "Behance"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:60
+msgid "BitBucket"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:61
+msgid "CodePen"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:62
+msgid "Delicious"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:63
+msgid "DeviantArt"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:64
+msgid "Digg"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:65
+msgid "Dribbble"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:66 
+#: wp-widgets/contact-us.php:85
+msgid "Email"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:67
+msgid "Facebook"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:68
+msgid "Flicker"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:69
+msgid "FourSquare"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:70
+msgid "Github"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:71
+msgid "Houzz"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:72
+msgid "Instagram"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:73
+msgid "JS Fiddle"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:74
+msgid "LinkedIn"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:75
+msgid "Medium"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:76
+msgid "Pinterest"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:77
+msgid "Product Hunt"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:78
+msgid "Reddit"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:79
+msgid "Slide Share"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:80
+msgid "Snapchat"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:81
+msgid "SoundCloud"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:82
+msgid "Spotify"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:83
+msgid "StackOverflow"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:84
+msgid "TripAdvisor"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:85
+msgid "Tumblr"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:86
+msgid "Twitch"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:87
+msgid "Twitter"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:88 
+#: elementor/widgets/video-popup/video-popup.php:72
+msgid "Vimeo"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:89
+msgid "VK"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:90
+msgid "Website"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:91
+msgid "WhatsApp"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:92
+msgid "WordPress"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:93
+msgid "Xing"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:94
+msgid "Yelp"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:95
+msgid "YouTube"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:106
+msgid "Information"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:141
+msgid "Type Member Name"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:152 
+#: elementor/widgets/team-member/team-member.php:695 
+#: elementor/widgets/testimonial/testimonial.php:209 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:88 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:709
+msgid "Designation"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:155
+msgid "Developer"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:156
+msgid "Type Member Job Title"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:166 
+#: elementor/widgets/team-member/team-member.php:744
+msgid "Short Bio"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:169
+msgid "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. "
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:180 
+#: elementor/widgets/team-member/team-member.php:216
+msgid "Add your profile link"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:193
+msgid "Social Profiles"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:203
+msgid "Profile Name"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:215
+msgid "Profile Link"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:358 
+#: elementor/widgets/team-member/team-member.php:794
+msgid "Social Icons"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:615
+msgid "Name, Designation & Bio"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:623
+msgid "Content Padding"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:667
+msgid "Text Hover Color"
+msgstr ""
+
+#: elementor/widgets/team-member/team-member.php:802
+msgid "Right Spacing"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:27 
+#: elementor/widgets/testimonial/testimonial.php:51
+msgid "Testimonial"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:59 
+#: elementor/widgets/testimonial/testimonial.php:426
+msgid "Quote Icon"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:98
+msgid "Rating Score"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:113 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:176
+msgid "Rating Position"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:117 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:180
+msgid "Before Content"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:118 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:181
+msgid "After Content"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:134 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:197
+msgid "Bubble"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:147
+msgid "Type testimonial"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:156 
+#: elementor/widgets/testimonial/testimonial.php:649
+msgid "Reviewer"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:185 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:206
+msgid "Image Position"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:189 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:210
+msgid "Aside"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:201 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:65
+msgid "Adam Smith"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:202
+msgid "Reviewer Name"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:212 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:90
+msgid "Web Developer"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:213
+msgid "Type reviewer designation"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:496
+msgid "Rating Icon"
+msgstr ""
+
+#: elementor/widgets/testimonial/testimonial.php:552
+msgid "Margin Bottom"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:27
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:72
+msgid "Client Image"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:112 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:126 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:131 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:136
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. "
+"Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse "
+"urna nibh, viverra non, semper suscipit, posuere a, pede."
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:119
+msgid "Testimonial Item"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:124
+msgid "Testimonial 1"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:125
+msgid "Designation 1"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:129
+msgid "Testimonial 2"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:130
+msgid "Designation 2"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:134
+msgid "Testimonial 3"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:135
+msgid "Designation 3"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:148
+msgid "Slider Option"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:154 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:803 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:811
+msgid "Quote"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:219 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:321 
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:340
+msgid "Slider Items"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:230
+msgid "Slider Arrow"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:239
+msgid "Slider Dots"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:283
+msgid "Slider Autoplay"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:305
+msgid "Autoplay Animation speed"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:416
+msgid "Inner Padding"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:431
+msgid "Inner Margin"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:858
+msgid "Navigation"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:922
+msgid "Dots"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:929
+msgid "Dots Wrapper Spacing"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel/testimonial-carousel.php:983
+msgid "Dot Item Margin"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup.php:25
+msgid "Video PopUp"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup.php:49
+msgid "Video"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup.php:68
+msgid "Video Type"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup.php:71
+msgid "Youtube"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup.php:81 
+#: elementor/widgets/video-popup/video-popup.php:95
+msgid "Video URL"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup.php:83 
+#: elementor/widgets/video-popup/video-popup.php:97
+msgid "Enter your URL"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup.php:111 
+#: elementor/widgets/video-popup/video-popup.php:358
+msgid "Overlay"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup.php:119
+msgid "Show Image Overlay"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup.php:167 
+#: elementor/widgets/video-popup/video-popup.php:347
+msgid "Glow"
+msgstr ""
+
+#: elementor/widgets/video-popup/video-popup.php:337
+msgid "Icon Glow"
+msgstr ""
+
+#: elementor/widgets/webinar-box/webinar-box.php:26
+msgid "Webinar Box"
+msgstr ""
+
+#: elementor/widgets/webinar-box/webinar-box.php:83
+msgid "Web Programming Career Guideline"
+msgstr ""
+
+#: elementor/widgets/webinar-box/webinar-box.php:84
+msgid "Enter title"
+msgstr ""
+
+#: elementor/widgets/webinar-box/webinar-box.php:92 wp-widgets/about-us.php:111
+msgid "Short Description"
+msgstr ""
+
+#: elementor/widgets/webinar-box/webinar-box.php:94
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. "
+"Quisque volutpat mattis eros. "
+msgstr ""
+
+#: elementor/widgets/webinar-box/webinar-box.php:95
+msgid "Enter description here"
+msgstr ""
+
+#: elementor/widgets/webinar-box/webinar-box.php:123
+msgid "12 May, 2021"
+msgstr ""
+
+#: elementor/widgets/webinar-box/webinar-box.php:124
+msgid "Enter date"
+msgstr ""
+
+#: elementor/widgets/webinar-box/webinar-box.php:134
+msgid "10:00 PM"
+msgstr ""
+
+#: elementor/widgets/webinar-box/webinar-box.php:135
+msgid "Enter time"
+msgstr ""
+
+#: inc/helper-functions.php:231
+#, php-format
+msgid "This input field has support for the following HTML tags: %1$s"
+msgstr ""
+
+#: inc/icons-manager.php:21
+msgid "Omexer Icons"
+msgstr ""
+
+#: wp-widgets/about-us.php:11
+msgid "About Us"
+msgstr ""
+
+#: wp-widgets/about-us.php:12
+msgid "Company information."
+msgstr ""
+
+#: wp-widgets/about-us.php:105
+msgid "Logo Image URL"
+msgstr ""
+
+#: wp-widgets/about-us.php:117
+msgid "Social Icon Heading"
+msgstr ""
+
+#: wp-widgets/about-us.php:124
+msgid "Facebook URL"
+msgstr ""
+
+#: wp-widgets/about-us.php:130
+msgid "Twitter URL"
+msgstr ""
+
+#: wp-widgets/about-us.php:136
+msgid "Linkedin URL"
+msgstr ""
+
+#: wp-widgets/about-us.php:142
+msgid "Pinterest URL"
+msgstr ""
+
+#: wp-widgets/about-us.php:148
+msgid "Instagram URL"
+msgstr ""
+
+#: wp-widgets/contact-us.php:11
+msgid "Contact Us"
+msgstr ""
+
+#: wp-widgets/contact-us.php:12
+msgid "Contact us information"
+msgstr ""
+
+#: wp-widgets/contact-us.php:79
+msgid "Location"
+msgstr ""
+
+#: wp-widgets/contact-us.php:91
+msgid "Mobile Number"
+msgstr ""
+
+#: wp-widgets/contact-us.php:97
+msgid "Subscribe Form Shortcode "
+msgstr ""
+
+#: wp-widgets/recent-post.php:10
+msgid "Advanced Recent Posts"
+msgstr ""
+
+#: wp-widgets/recent-post.php:11
+msgid "latest post with featured image"
+msgstr ""
+
+#: wp-widgets/recent-post.php:52
+msgid " Recent Posts"
+msgstr ""
+
+#: wp-widgets/recent-post.php:56
+msgid "Title :"
+msgstr ""
+
+#: wp-widgets/recent-post.php:60
+msgid "Post Count:"
+msgstr ""
