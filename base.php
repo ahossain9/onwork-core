@@ -105,6 +105,7 @@ class Plugin {
             'skill-bar',
             'accordian',
             'step-flow',
+            'login-registration',
         ];
 
         if ( function_exists('tutor') ) {

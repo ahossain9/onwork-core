@@ -3,7 +3,7 @@
 /**
  * Define the metabox and field configurations.
  */
-function prolancer_metaboxes()
+function onwork_metaboxes()
 {
 
     $currency_symbol = class_exists('WooCommerce') ? get_woocommerce_currency_symbol() : '';
@@ -13,7 +13,7 @@ function prolancer_metaboxes()
      */
     $project = new_cmb2_box(array(
         'id'            => 'project_metabox',
-        'title'         => esc_html__('Project details', 'prolancer'),
+        'title'         => esc_html__('Project details', 'onwork-core'),
         'object_types'  => array('projects'),
         'context'       => 'normal',
         'priority'      => 'high',
@@ -21,118 +21,118 @@ function prolancer_metaboxes()
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Project Categories', 'prolancer'),
+        'name'           => esc_html__('Project Categories', 'onwork-core'),
         'id'             => 'project_categories',
         'taxonomy'       => 'project-categories',
         'type'           => 'taxonomy_select_hierarchical'
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Seller type', 'prolancer'),
+        'name'           => esc_html__('Seller type', 'onwork-core'),
         'id'             => 'project_seller_type',
         'taxonomy'       => 'project-seller-type',
         'type'           => 'taxonomy_select',
     ));
 
     $project->add_field(array(
-        'name'             => esc_html__('Project type', 'prolancer'),
+        'name'             => esc_html__('Project type', 'onwork-core'),
         'id'               => 'project_type',
         'type'             => 'select',
         'show_option_none' => true,
         'options'          => array(
-            'Fixed'                => esc_html__('Fixed', 'prolancer'),
-            'Hourly'              => esc_html__('Hourly', 'prolancer')
+            'Fixed'                => esc_html__('Fixed', 'onwork-core'),
+            'Hourly'              => esc_html__('Hourly', 'onwork-core')
         )
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Project Price', 'prolancer'),
+        'name'           => esc_html__('Project Price', 'onwork-core'),
         'id'             => 'project_price',
         'type'           => 'text'
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Estimated Hours', 'prolancer'),
+        'name'           => esc_html__('Estimated Hours', 'onwork-core'),
         'id'             => 'estimated_hours',
         'type'           => 'text'
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Project Duration', 'prolancer'),
+        'name'           => esc_html__('Project Duration', 'onwork-core'),
         'id'             => 'project_duration',
         'taxonomy'       => 'project-duration',
         'type'           => 'taxonomy_select'
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Project Level', 'prolancer'),
+        'name'           => esc_html__('Project Level', 'onwork-core'),
         'id'             => 'project_level',
         'taxonomy'       => 'project-level',
         'type'           => 'taxonomy_select'
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('English Level', 'prolancer'),
+        'name'           => esc_html__('English Level', 'onwork-core'),
         'id'             => 'english_level',
         'taxonomy'       => 'english-level',
         'type'           => 'taxonomy_select'
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Locations', 'prolancer'),
+        'name'           => esc_html__('Locations', 'onwork-core'),
         'id'             => 'locations',
         'taxonomy'       => 'locations',
         'type'           => 'taxonomy_select_hierarchical'
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Project Label', 'prolancer'),
+        'name'           => esc_html__('Project Label', 'onwork-core'),
         'id'             => 'project_label',
         'taxonomy'       => 'project-label',
         'type'           => 'taxonomy_multicheck_inline'
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Project skills', 'prolancer'),
+        'name'           => esc_html__('Project skills', 'onwork-core'),
         'id'             => 'skills',
         'taxonomy'       => 'skills',
         'type'           => 'taxonomy_multicheck_inline'
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Languages', 'prolancer'),
+        'name'           => esc_html__('Languages', 'onwork-core'),
         'id'             => 'languages',
         'taxonomy'       => 'languages',
         'type'           => 'taxonomy_multicheck_inline'
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Attachments', 'prolancer'),
+        'name'           => esc_html__('Attachments', 'onwork-core'),
         'id'             => 'attachments',
         'type'                       => 'file_list',
         'query_args'          => array('type' => array('txt', 'image/gif', 'image/jpeg', 'image/png')),
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Assign Project', 'prolancer'),
+        'name'           => esc_html__('Assign Project', 'onwork-core'),
         'id'             => 'assign_project',
         'type'           => 'select',
         'show_option_none' => true,
-        // 'options'        =>  prolancer_get_users(array('fields' => array('user_login')))
+        // 'options'        =>  onwork_get_users(array('fields' => array('user_login')))
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Featured', 'prolancer'),
+        'name'           => esc_html__('Featured', 'onwork-core'),
         'id'             => 'featured_project',
         'type'                       => 'checkbox',
-        'sanitization_cb' => 'prolancer_sanitize_checkbox'
+        'sanitization_cb' => 'onwork_sanitize_checkbox'
     ));
 
     /**
      * Service metabox
      */
     $service = new_cmb2_box(array(
-        'title'         => esc_html__('Service details', 'prolancer'),
+        'title'         => esc_html__('Service details', 'onwork-core'),
         'id'            => 'service_metabox',
         'object_types'  => array('services'),
         'context'       => 'normal',
@@ -141,21 +141,21 @@ function prolancer_metaboxes()
     ));
 
     $service->add_field(array(
-        'name'           => esc_html__('Service Category', 'prolancer'),
+        'name'           => esc_html__('Service Category', 'onwork-core'),
         'id'             => 'service_category',
         'taxonomy'       => 'service-categories',
         'type'           => 'taxonomy_select'
     ));
 
     $service->add_field(array(
-        'name'           => esc_html__('English Level', 'prolancer'),
+        'name'           => esc_html__('English Level', 'onwork-core'),
         'id'             => 'service_english_level',
         'taxonomy'       => 'service-english-level',
         'type'           => 'taxonomy_select'
     ));
 
     $service->add_field(array(
-        'name'           => esc_html__('Locations', 'prolancer'),
+        'name'           => esc_html__('Locations', 'onwork-core'),
         'id'             => 'service_locations',
         'taxonomy'       => 'service-locations',
         'type'           => 'taxonomy_select_hierarchical'
@@ -163,16 +163,16 @@ function prolancer_metaboxes()
     ));
 
     $service->add_field(array(
-        'name'           => esc_html__('Attachments', 'prolancer'),
+        'name'           => esc_html__('Attachments', 'onwork-core'),
         'id'             => 'service_attachments',
         'type'                  => 'file_list'
     ));
 
     $service->add_field(array(
-        'name'           => esc_html__('Featured', 'prolancer'),
+        'name'           => esc_html__('Featured', 'onwork-core'),
         'id'             => 'featured_service',
         'type'                       => 'checkbox',
-        'sanitization_cb' => 'prolancer_sanitize_checkbox'
+        'sanitization_cb' => 'onwork_sanitize_checkbox'
     ));
 
 
@@ -181,7 +181,7 @@ function prolancer_metaboxes()
      */
     $buyer = new_cmb2_box(array(
         'id'            => 'buyer_metabox',
-        'title'         => esc_html__('Buyer details', 'prolancer'),
+        'title'         => esc_html__('Buyer details', 'onwork-core'),
         'object_types'  => array('buyers'),
         'context'       => 'normal',
         'priority'      => 'high',
@@ -189,41 +189,41 @@ function prolancer_metaboxes()
     ));
 
     $buyer->add_field(array(
-        'name'           => esc_html__('Profile name', 'prolancer'),
+        'name'           => esc_html__('Profile name', 'onwork-core'),
         'id'             => 'buyer_profile_name',
         'type'           => 'text'
     ));
 
 
     $buyer->add_field(array(
-        'name'           => esc_html__('Profile Title', 'prolancer'),
+        'name'           => esc_html__('Profile Title', 'onwork-core'),
         'id'             => 'buyer_profile_title',
         'type'           => 'text'
     ));
 
     $buyer->add_field(array(
-        'name'           => esc_html__('Departments', 'prolancer'),
+        'name'           => esc_html__('Departments', 'onwork-core'),
         'id'             => 'buyer_departments',
         'taxonomy'       => 'buyer-departments',
         'type'           => 'taxonomy_select'
     ));
 
     $buyer->add_field(array(
-        'name'           => esc_html__('No. of Employees', 'prolancer'),
+        'name'           => esc_html__('No. of Employees', 'onwork-core'),
         'id'             => 'employees_number',
         'taxonomy'       => 'employees-number',
         'type'           => 'taxonomy_select'
     ));
 
     $buyer->add_field(array(
-        'name'           => esc_html__('Locations', 'prolancer'),
+        'name'           => esc_html__('Locations', 'onwork-core'),
         'id'             => 'buyer_locations',
         'taxonomy'       => 'buyer-locations',
         'type'           => 'taxonomy_select'
     ));
 
     $buyer->add_field(array(
-        'name'           => esc_html__('Profile Picture', 'prolancer'),
+        'name'           => esc_html__('Profile Picture', 'onwork-core'),
         'id'             => 'buyer_profile_attachment',
         'type'           => 'file',
         'options'              => array(
@@ -233,7 +233,7 @@ function prolancer_metaboxes()
     ));
 
     $buyer->add_field(array(
-        'name'           => esc_html__('Cover Picture', 'prolancer'),
+        'name'           => esc_html__('Cover Picture', 'onwork-core'),
         'id'             => 'buyer_cover_attachment',
         'type'           => 'file',
         'options'              => array(
@@ -248,7 +248,7 @@ function prolancer_metaboxes()
      */
     $seller = new_cmb2_box(array(
         'id'            => 'seller_metabox',
-        'title'         => esc_html__('Seller details', 'prolancer'),
+        'title'         => esc_html__('Seller details', 'onwork-core'),
         'object_types'  => array('sellers'),
         'context'       => 'normal',
         'priority'      => 'high',
@@ -256,64 +256,64 @@ function prolancer_metaboxes()
     ));
 
     $seller->add_field(array(
-        'name' => esc_html__('Profile name', 'prolancer'),
+        'name' => esc_html__('Profile name', 'onwork-core'),
         'id'   => 'seller_profile_name',
         'type' => 'text'
     ));
 
 
     $seller->add_field(array(
-        'name' => esc_html__('Profile Title', 'prolancer'),
+        'name' => esc_html__('Profile Title', 'onwork-core'),
         'id'   => 'seller_profile_title',
         'type' => 'text'
     ));
 
     $seller->add_field(array(
-        'name' => esc_html__('Hourly Rate', 'prolancer'),
+        'name' => esc_html__('Hourly Rate', 'onwork-core'),
         'id'   => 'seller_hourly_rate',
         'type' => 'text'
     ));
 
     $seller->add_field(array(
-        'name'       => esc_html__('Seller Gender', 'prolancer'),
+        'name'       => esc_html__('Seller Gender', 'onwork-core'),
         'id'         => 'seller_gender',
         'type'       => 'select',
         'options'    => array(
-            'Male'          => esc_html__('Male', 'prolancer'),
-            'Female'   => esc_html__('Female', 'prolancer')
+            'Male'          => esc_html__('Male', 'onwork-core'),
+            'Female'   => esc_html__('Female', 'onwork-core')
         )
     ));
 
     $seller->add_field(array(
-        'name'           => esc_html__('Seller Type', 'prolancer'),
+        'name'           => esc_html__('Seller Type', 'onwork-core'),
         'id'             => 'seller_type',
         'taxonomy'       => 'seller-type',
         'type'           => 'taxonomy_select'
     ));
 
     $seller->add_field(array(
-        'name'           => esc_html__('English Level', 'prolancer'),
+        'name'           => esc_html__('English Level', 'onwork-core'),
         'id'             => 'seller_english_level',
         'taxonomy'       => 'seller-english-level',
         'type'           => 'taxonomy_select'
     ));
 
     $seller->add_field(array(
-        'name'           => esc_html__('Languages', 'prolancer'),
+        'name'           => esc_html__('Languages', 'onwork-core'),
         'id'             => 'seller_languages',
         'taxonomy'       => 'seller-languages',
         'type'           => 'taxonomy_multicheck_inline'
     ));
 
     $seller->add_field(array(
-        'name'           => esc_html__('Locations', 'prolancer'),
+        'name'           => esc_html__('Locations', 'onwork-core'),
         'id'             => 'seller_locations',
         'taxonomy'       => 'seller-locations',
         'type'           => 'taxonomy_select'
     ));
 
     $seller->add_field(array(
-        'name'    => esc_html__('Profile Picture', 'prolancer'),
+        'name'    => esc_html__('Profile Picture', 'onwork-core'),
         'id'      => 'seller_profile_attachment',
         'type'    => 'file',
         'options' => array(
@@ -323,7 +323,7 @@ function prolancer_metaboxes()
     ));
 
     $seller->add_field(array(
-        'name'    => esc_html__('Cover Picture', 'prolancer'),
+        'name'    => esc_html__('Cover Picture', 'onwork-core'),
         'id'      => 'seller_cover_attachment',
         'type'    => 'file',
         'options' => array(
@@ -333,7 +333,7 @@ function prolancer_metaboxes()
     ));
 
     $seller->add_field(array(
-        'name'  => esc_html__('Address', 'prolancer'),
+        'name'  => esc_html__('Address', 'onwork-core'),
         'id'    => 'seller_address',
         'type'  => 'textarea'
     ));
@@ -344,7 +344,7 @@ function prolancer_metaboxes()
      */
     $payout = new_cmb2_box(array(
         'id'            => 'payout_metabox',
-        'title'         => esc_html__('Payout details', 'prolancer'),
+        'title'         => esc_html__('Payout details', 'onwork-core'),
         'object_types'  => array('payouts'),
         'context'       => 'normal',
         'priority'      => 'high',
@@ -352,7 +352,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('Payout method', 'prolancer'),
+        'name'       => esc_html__('Payout method', 'onwork-core'),
         'id'         => 'payout_method',
         'type'       => 'text',
         'attributes' => array(
@@ -362,7 +362,7 @@ function prolancer_metaboxes()
 
 
     $payout->add_field(array(
-        'name'       => esc_html__('Payout amount', 'prolancer'),
+        'name'       => esc_html__('Payout amount', 'onwork-core'),
         'id'         => 'payout_amount',
         'type'       => 'text',
         'attributes' => array(
@@ -371,7 +371,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('Paypal', 'prolancer'),
+        'name'       => esc_html__('Paypal', 'onwork-core'),
         'id'         => 'paypal_email',
         'type'       => 'text',
         'attributes' => array(
@@ -380,7 +380,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('Payoneer', 'prolancer'),
+        'name'       => esc_html__('Payoneer', 'onwork-core'),
         'id'         => 'payoneer_email',
         'type'       => 'text',
         'attributes' => array(
@@ -389,7 +389,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('Bank', 'prolancer'),
+        'name'       => esc_html__('Bank', 'onwork-core'),
         'id'         => 'bank_name',
         'type'       => 'text',
         'attributes' => array(
@@ -398,7 +398,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('Bank account number', 'prolancer'),
+        'name'       => esc_html__('Bank account number', 'onwork-core'),
         'id'         => 'bank_account_number',
         'type'       => 'text',
         'attributes' => array(
@@ -407,7 +407,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('Routing number', 'prolancer'),
+        'name'       => esc_html__('Routing number', 'onwork-core'),
         'id'         => 'routing_number',
         'type'       => 'text',
         'attributes' => array(
@@ -417,7 +417,7 @@ function prolancer_metaboxes()
 
 
     $payout->add_field(array(
-        'name'       => esc_html__('IBAN', 'prolancer'),
+        'name'       => esc_html__('IBAN', 'onwork-core'),
         'id'         => 'iban',
         'type'       => 'text',
         'attributes' => array(
@@ -427,7 +427,7 @@ function prolancer_metaboxes()
 
 
     $payout->add_field(array(
-        'name'       => esc_html__('BIC / SWIFT-code', 'prolancer'),
+        'name'       => esc_html__('BIC / SWIFT-code', 'onwork-core'),
         'id'         => 'bic_swift_code',
         'type'       => 'text',
         'attributes' => array(
@@ -436,7 +436,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('Bank address', 'prolancer'),
+        'name'       => esc_html__('Bank address', 'onwork-core'),
         'id'         => 'bank_address',
         'type'       => 'text',
         'attributes' => array(
@@ -445,7 +445,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('First Name', 'prolancer'),
+        'name'       => esc_html__('First Name', 'onwork-core'),
         'id'         => 'payout_first_name',
         'type'       => 'text',
         'attributes' => array(
@@ -454,7 +454,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('Last Name', 'prolancer'),
+        'name'       => esc_html__('Last Name', 'onwork-core'),
         'id'         => 'payout_last_name',
         'type'       => 'text',
         'attributes' => array(
@@ -463,7 +463,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('Address', 'prolancer'),
+        'name'       => esc_html__('Address', 'onwork-core'),
         'id'         => 'payout_address',
         'type'       => 'text',
         'attributes' => array(
@@ -472,7 +472,7 @@ function prolancer_metaboxes()
     ));
 
     $payout->add_field(array(
-        'name'       => esc_html__('Country', 'prolancer'),
+        'name'       => esc_html__('Country', 'onwork-core'),
         'id'         => 'payout_country',
         'type'       => 'text',
         'attributes' => array(
@@ -485,7 +485,7 @@ function prolancer_metaboxes()
      */
     $dispute = new_cmb2_box(array(
         'id'            => 'dispute_metabox',
-        'title'         => esc_html__('Dispute details', 'prolancer'),
+        'title'         => esc_html__('Dispute details', 'onwork-core'),
         'object_types'  => array('disputes'),
         'context'       => 'normal',
         'priority'      => 'high',
@@ -493,7 +493,7 @@ function prolancer_metaboxes()
     ));
 
     $dispute->add_field(array(
-        'name'          => esc_html__('Buyer', 'prolancer'),
+        'name'          => esc_html__('Buyer', 'onwork-core'),
         'id'            => 'dispute_buyer',
         'type'          => 'text',
         'attributes'    => array(
@@ -507,7 +507,7 @@ function prolancer_metaboxes()
     ));
 
     $dispute->add_field(array(
-        'name'           => esc_html__('Seller', 'prolancer'),
+        'name'           => esc_html__('Seller', 'onwork-core'),
         'id'             => 'dispute_seller',
         'type'           => 'text',
         'attributes'     => array(
@@ -521,29 +521,29 @@ function prolancer_metaboxes()
     ));
 
     $dispute->add_field(array(
-        'name'           => esc_html__('Price ', 'prolancer') . $currency_symbol,
+        'name'           => esc_html__('Price ', 'onwork-core') . $currency_symbol,
         'id'             => 'dispute_price',
         'type'           => 'text'
     ));
 }
-add_action('cmb2_admin_init', 'prolancer_metaboxes');
+add_action('cmb2_admin_init', 'onwork_metaboxes');
 
 // Sanitize checkbox
-function prolancer_sanitize_checkbox($value, $field_args, $field)
+function onwork_sanitize_checkbox($value, $field_args, $field)
 {
     // Return '1' instead of 'on'.
     return is_null($value) ? 0 : 1;
 }
 
 // Custom repeatable field
-function prolancer_custom_meta_boxes()
+function onwork_custom_meta_boxes()
 {
     /* Add meta boxes on the 'add_meta_boxes' hook. */
-    function prolancer_add_meta_boxes()
+    function onwork_add_meta_boxes()
     {
         add_meta_box(
             'seller-details',      // Unique ID
-            esc_html__('Seller Details', 'prolancer'),    // Title
+            esc_html__('Seller Details', 'onwork-core'),    // Title
             'seller_meta_box',   // Callback function
             'sellers',
             'normal',         // Context
@@ -551,7 +551,7 @@ function prolancer_custom_meta_boxes()
         );
         add_meta_box(
             'service-packages',      // Unique ID
-            esc_html__('Packages', 'prolancer'),    // Title
+            esc_html__('Packages', 'onwork-core'),    // Title
             'service_package_meta_box',   // Callback function
             'services',
             'normal',         // Context
@@ -559,7 +559,7 @@ function prolancer_custom_meta_boxes()
         );
         add_meta_box(
             'additional-services',      // Unique ID
-            esc_html__('Additional Services', 'prolancer'),    // Title
+            esc_html__('Additional Services', 'onwork-core'),    // Title
             'additional_service_meta_box',   // Callback function
             'services',
             'normal',         // Context
@@ -567,7 +567,7 @@ function prolancer_custom_meta_boxes()
         );
         add_meta_box(
             'service-faqs',      // Unique ID
-            esc_html__('FAQs', 'prolancer'),    // Title
+            esc_html__('FAQs', 'onwork-core'),    // Title
             'service_faq_meta_box',   // Callback function
             'services',
             'normal',         // Context
@@ -575,14 +575,14 @@ function prolancer_custom_meta_boxes()
         );
         add_meta_box(
             'verification-details',      // Unique ID
-            esc_html__('Verification', 'prolancer'),    // Title
+            esc_html__('Verification', 'onwork-core'),    // Title
             'verification_meta_box',   // Callback function
             'verification',
             'normal',         // Context
             'default'         // Priority
         );
     }
-    add_action('add_meta_boxes', 'prolancer_add_meta_boxes');
+    add_action('add_meta_boxes', 'onwork_add_meta_boxes');
 
     function seller_meta_box($post)
     { ?>
@@ -599,7 +599,7 @@ function prolancer_custom_meta_boxes()
                             </div>
                             <div class="col-sm-5 my-auto">
                                 <select name="seller_skills[]" class="form-control">
-                                    <option><?php echo esc_html__('Skills', 'prolancer'); ?></option>
+                                    <option><?php echo esc_html__('Skills', 'onwork-core'); ?></option>
                                     <?php
                                     $terms = get_terms(array(
                                         'taxonomy' => 'seller-skills',
@@ -615,7 +615,7 @@ function prolancer_custom_meta_boxes()
                                 </select>
                             </div>
                             <div class="col-sm-5 my-auto">
-                                <input type="number" name='skills_percent[]' class="form-control" min="0" max="100" value="<?php echo esc_attr($skills[$i]['percent']) ?>" placeholder="<?php echo esc_html__('Percentage', 'prolancer'); ?>">
+                                <input type="number" name='skills_percent[]' class="form-control" min="0" max="100" value="<?php echo esc_attr($skills[$i]['percent']) ?>" placeholder="<?php echo esc_html__('Percentage', 'onwork-core'); ?>">
                             </div>
                             <div class="col-sm-1">
                                 <i class="dashicons dashicons-trash"></i>
@@ -625,15 +625,15 @@ function prolancer_custom_meta_boxes()
             <?php }
             } ?>
         </div>
-        <a href="#" class="add-new-skill button-primary" data-nonce="<?php echo wp_create_nonce('skill_nonce'); ?>"><?php echo esc_html__("Add New Skill", 'prolancer'); ?> </a>
+        <a href="#" class="add-new-skill button-primary" data-nonce="<?php echo wp_create_nonce('skill_nonce'); ?>"><?php echo esc_html__("Add New Skill", 'onwork-core'); ?> </a>
     <?php }
 
     function service_package_meta_box($post)
     {
-        global $prolancer_opt;
+        global $onwork_opt;
 
-        $prolancer_packages = !empty($prolancer_opt['prolancer_packages']) ? $prolancer_opt['prolancer_packages'] : '';
-        $prolancer_package_feature = !empty($prolancer_opt['prolancer_package_feature']) ? $prolancer_opt['prolancer_package_feature'] : '';
+        $onwork_packages = !empty($onwork_opt['onwork_packages']) ? $onwork_opt['onwork_packages'] : '';
+        $onwork_package_feature = !empty($onwork_opt['onwork_package_feature']) ? $onwork_opt['onwork_package_feature'] : '';
         $packages = json_decode(get_post_meta($post->ID, 'packages', true), true);
 
         if ($packages) {
@@ -646,35 +646,35 @@ function prolancer_custom_meta_boxes()
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <?php for ($i = 0; $i < $prolancer_packages; $i++) { ?>
-                            <th scope="col"><?php echo esc_html__('Package ', 'prolancer') . $i ?></th>
+                        <?php for ($i = 0; $i < $onwork_packages; $i++) { ?>
+                            <th scope="col"><?php echo esc_html__('Package ', 'onwork-core') . $i ?></th>
                         <?php } ?>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><?php echo esc_html__('Name', 'prolancer') ?></td>
-                        <?php for ($i = 0; $i < $prolancer_packages; $i++) { ?>
-                            <td><input type="text" name="package_name[]" placeholder="<?php echo esc_attr('Name your package', 'prolancer'); ?>" value="<?php if (!empty($packages)) {
+                        <td><?php echo esc_html__('Name', 'onwork-core') ?></td>
+                        <?php for ($i = 0; $i < $onwork_packages; $i++) { ?>
+                            <td><input type="text" name="package_name[]" placeholder="<?php echo esc_attr('Name your package', 'onwork-core'); ?>" value="<?php if (!empty($packages)) {
                                                                                                                                                             echo esc_attr($packages[$i]['name']);
                                                                                                                                                         } ?>"></td>
 
                         <?php } ?>
                     </tr>
                     <tr>
-                        <td><?php echo esc_html__('Description', 'prolancer') ?></td>
-                        <?php for ($i = 0; $i < $prolancer_packages; $i++) { ?>
-                            <td><textarea name="package_description[]" placeholder="<?php echo esc_attr('Describe the details of your offering', 'prolancer'); ?>"><?php if (!empty($packages)) {
+                        <td><?php echo esc_html__('Description', 'onwork-core') ?></td>
+                        <?php for ($i = 0; $i < $onwork_packages; $i++) { ?>
+                            <td><textarea name="package_description[]" placeholder="<?php echo esc_attr('Describe the details of your offering', 'onwork-core'); ?>"><?php if (!empty($packages)) {
                                                                                                                                                                         echo esc_html($packages[$i]['description']);
                                                                                                                                                                     } ?></textarea></td>
                         <?php } ?>
                     </tr>
                     <tr>
-                        <td><?php echo esc_html__('Delivery Time', 'prolancer') ?></td>
-                        <?php for ($i = 0; $i < $prolancer_packages; $i++) { ?>
+                        <td><?php echo esc_html__('Delivery Time', 'onwork-core') ?></td>
+                        <?php for ($i = 0; $i < $onwork_packages; $i++) { ?>
                             <td>
                                 <select name="package_delivery_time[]" class="form-control">
-                                    <option><?php echo esc_html__('Delivery Time', 'prolancer'); ?></option>
+                                    <option><?php echo esc_html__('Delivery Time', 'onwork-core'); ?></option>
                                     <?php
                                     if (!empty($packages)) {
                                         $package_delivery_time = get_term_by('id', $packages[$i]['delivery_time'], 'delivery-time');
@@ -695,17 +695,17 @@ function prolancer_custom_meta_boxes()
                         <?php } ?>
                     </tr>
                     <tr>
-                        <td><?php echo esc_html__('Revisions', 'prolancer') ?></td>
-                        <?php for ($i = 0; $i < $prolancer_packages; $i++) { ?>
-                            <td><input type="number" name="package_revision[]" placeholder="<?php echo esc_attr('3', 'prolancer') ?>" value="<?php if (!empty($packages)) {
+                        <td><?php echo esc_html__('Revisions', 'onwork-core') ?></td>
+                        <?php for ($i = 0; $i < $onwork_packages; $i++) { ?>
+                            <td><input type="number" name="package_revision[]" placeholder="<?php echo esc_attr('3', 'onwork-core') ?>" value="<?php if (!empty($packages)) {
                                                                                                                                                 echo esc_attr($packages[$i]['revision']);
                                                                                                                                             } ?>"></td>
                         <?php } ?>
                     </tr>
-                    <?php foreach ($prolancer_package_feature as $feature) { ?>
+                    <?php foreach ($onwork_package_feature as $feature) { ?>
                         <tr>
                             <td><?php echo esc_html(ucwords(str_replace('packagefeature', '', str_replace('_', ' ', $feature)))) ?></td>
-                            <?php for ($i = 0; $i < $prolancer_packages; $i++) {
+                            <?php for ($i = 0; $i < $onwork_packages; $i++) {
                                 if (isset($package)) {
                                     $feature_value = $package['features']['packagefeature_' . str_replace(' ', '_', strtolower($feature))][$i];
                                 } ?>
@@ -727,9 +727,9 @@ function prolancer_custom_meta_boxes()
                         </tr>
                     <?php } ?>
                     <tr>
-                        <td><?php echo esc_html__('Price', 'prolancer') ?></td>
-                        <?php for ($i = 0; $i < $prolancer_packages; $i++) { ?>
-                            <td><input type="number" name="package_price[]" placeholder="<?php echo esc_attr(prolancer_get_currency_symbol()); ?>" value="<?php echo esc_attr($packages[$i]['price']); ?>"></td>
+                        <td><?php echo esc_html__('Price', 'onwork-core') ?></td>
+                        <?php for ($i = 0; $i < $onwork_packages; $i++) { ?>
+                            <td><input type="number" name="package_price[]" placeholder="<?php echo esc_attr(onwork_get_currency_symbol()); ?>" value="<?php echo esc_attr($packages[$i]['price']); ?>"></td>
                         <?php } ?>
                     </tr>
                 </tbody>
@@ -750,11 +750,11 @@ function prolancer_custom_meta_boxes()
                             <i class="dashicons dashicons-menu"></i>
                         </div>
                         <div class="col-sm-10 my-auto">
-                            <input type="text" name='additional_service_title[]' class="form-control" value="<?php echo esc_attr($additional_services[$i]['title']) ?>" placeholder="<?php echo esc_html__('Title', 'prolancer'); ?>">
-                            <textarea name='additional_service_description[]' class="form-control" value="<?php echo esc_attr($additional_services[$i]['description']) ?>" placeholder="<?php echo esc_html__('Description', 'prolancer'); ?>"><?php echo esc_html($additional_services[$i]['description']) ?></textarea>
+                            <input type="text" name='additional_service_title[]' class="form-control" value="<?php echo esc_attr($additional_services[$i]['title']) ?>" placeholder="<?php echo esc_html__('Title', 'onwork-core'); ?>">
+                            <textarea name='additional_service_description[]' class="form-control" value="<?php echo esc_attr($additional_services[$i]['description']) ?>" placeholder="<?php echo esc_html__('Description', 'onwork-core'); ?>"><?php echo esc_html($additional_services[$i]['description']) ?></textarea>
                             <div class="input-group mb-3">
                                 <span class="input-group-text">$</span>
-                                <input type="number" name='additional_service_price[]' class="form-control mb-0" value="<?php echo esc_attr($additional_services[$i]['price']) ?>" placeholder="<?php echo esc_html__('Price', 'prolancer'); ?>">
+                                <input type="number" name='additional_service_price[]' class="form-control mb-0" value="<?php echo esc_attr($additional_services[$i]['price']) ?>" placeholder="<?php echo esc_html__('Price', 'onwork-core'); ?>">
                             </div>
                         </div>
                         <div class="col-sm-1">
@@ -764,7 +764,7 @@ function prolancer_custom_meta_boxes()
             <?php }
             } ?>
         </div>
-        <a href="#" class="add-additional-service prolancer-btn button-primary" data-nonce="<?php echo wp_create_nonce('additional_service_nonce'); ?>"><?php echo esc_html__("Add Extra Service", 'prolancer'); ?> </a>
+        <a href="#" class="add-additional-service onwork-btn button-primary" data-nonce="<?php echo wp_create_nonce('additional_service_nonce'); ?>"><?php echo esc_html__("Add Extra Service", 'onwork-core'); ?> </a>
     <?php }
 
     function service_faq_meta_box($post)
@@ -780,8 +780,8 @@ function prolancer_custom_meta_boxes()
                             <i class="dashicons dashicons-menu"></i>
                         </div>
                         <div class="col-sm-10 my-auto">
-                            <input type="text" name='faq_title[]' class="form-control" value="<?php echo esc_attr($faqs[$i]['title']) ?>" placeholder="<?php echo esc_html__('Title', 'prolancer'); ?>">
-                            <textarea name='faq_description[]' class="form-control" value="<?php echo esc_attr($faqs[$i]['description']) ?>" placeholder="<?php echo esc_html__('Description', 'prolancer'); ?>"><?php echo esc_html($faqs[$i]['description']) ?></textarea>
+                            <input type="text" name='faq_title[]' class="form-control" value="<?php echo esc_attr($faqs[$i]['title']) ?>" placeholder="<?php echo esc_html__('Title', 'onwork-core'); ?>">
+                            <textarea name='faq_description[]' class="form-control" value="<?php echo esc_attr($faqs[$i]['description']) ?>" placeholder="<?php echo esc_html__('Description', 'onwork-core'); ?>"><?php echo esc_html($faqs[$i]['description']) ?></textarea>
                         </div>
                         <div class="col-sm-1">
                             <i class="dashicons dashicons-trash"></i>
@@ -790,7 +790,7 @@ function prolancer_custom_meta_boxes()
             <?php }
             } ?>
         </div>
-        <a href="#" class="add-new-faq button-primary"><?php echo esc_html__("Add New FAQ", 'prolancer'); ?> </a>
+        <a href="#" class="add-new-faq button-primary"><?php echo esc_html__("Add New FAQ", 'onwork-core'); ?> </a>
     <?php }
 
     function verification_meta_box($post)
@@ -802,18 +802,18 @@ function prolancer_custom_meta_boxes()
                 <div class="row">
                     <div class="col-sm-12">
                         <?php if (!empty($verification['my_country_field'])) { ?>
-                            <h3><?php echo esc_html__('Country', 'prolancer'); ?></h3>
+                            <h3><?php echo esc_html__('Country', 'onwork-core'); ?></h3>
                             <input type="text" class="regular-text" value="<?php echo esc_attr(WC()->countries->countries[$verification['my_country_field']]); ?>">
                             <input type="hidden" name="my_country_field" value="<?php echo esc_attr($verification['my_country_field']); ?>">
                         <?php }
                         if (!empty($verification['user_passport_attachment'])) { ?>
                             <input type="hidden" name="user_passport_attachment" value="<?php echo esc_attr($verification['user_passport_attachment']); ?>">
-                            <h3><?php echo esc_html__('Passport', 'prolancer'); ?></h3>
+                            <h3><?php echo esc_html__('Passport', 'onwork-core'); ?></h3>
                             <?php echo wp_get_attachment_image($verification['user_passport_attachment'], array('400', '300'), "", array("class" => "img-responsive"));  ?>
                         <?php }
                         if (!empty($verification['user_drivers_license_attachment'])) { ?>
                             <input type="hidden" name="user_drivers_license_attachment" value="<?php echo esc_attr($verification['user_drivers_license_attachment']); ?>">
-                            <h3><?php echo esc_html__('Driver\'s license', 'prolancer'); ?></h3>
+                            <h3><?php echo esc_html__('Driver\'s license', 'onwork-core'); ?></h3>
                             <?php echo wp_get_attachment_image($verification['user_drivers_license_attachment'], array('400', '300'), "", array("class" => "img-responsive"));  ?>
                         <?php } ?>
                     </div>
@@ -823,14 +823,14 @@ function prolancer_custom_meta_boxes()
                     <div class="col-sm-6">
                         <?php if (!empty($verification['user_id_front_attachment'])) { ?>
                             <input type="hidden" name="user_id_front_attachment" value="<?php echo esc_attr($verification['user_id_front_attachment']); ?>">
-                            <h3><?php echo esc_html__('Identity card front', 'prolancer'); ?></h3>
+                            <h3><?php echo esc_html__('Identity card front', 'onwork-core'); ?></h3>
                             <?php echo wp_get_attachment_image($verification['user_id_front_attachment'], array('400', '300'), "", array("class" => "img-responsive"));  ?>
                         <?php } ?>
                     </div>
                     <div class="col-sm-6">
                         <?php if (!empty($verification['user_id_back_attachment'])) { ?>
                             <input type="hidden" name="user_id_back_attachment" value="<?php echo esc_attr($verification['user_id_back_attachment']); ?>">
-                            <h3><?php echo esc_html__('Identity card back', 'prolancer'); ?></h3>
+                            <h3><?php echo esc_html__('Identity card back', 'onwork-core'); ?></h3>
                             <?php echo wp_get_attachment_image($verification['user_id_back_attachment'], array('400', '300'), "", array("class" => "img-responsive"));  ?>
                         <?php } ?>
                     </div>
@@ -838,12 +838,12 @@ function prolancer_custom_meta_boxes()
                     <input type="radio" id="approve" name="verified" value="yes" <?php if ($verification['verified'] == 'yes') {
                                                                                         echo 'checked';
                                                                                     } ?>>
-                    <label for="approve"><?php echo esc_html__('Approve', 'prolancer'); ?></label>
+                    <label for="approve"><?php echo esc_html__('Approve', 'onwork-core'); ?></label>
 
                     <input type="radio" id="reject" name="verified" value="rejected" <?php if ($verification['verified'] == 'rejected') {
                                                                                             echo 'checked';
                                                                                         } ?>>
-                    <label for="reject"><?php echo esc_html__('Reject', 'prolancer'); ?></label>
+                    <label for="reject"><?php echo esc_html__('Reject', 'onwork-core'); ?></label>
                 </div>
             </div>
         </div>
@@ -851,7 +851,7 @@ function prolancer_custom_meta_boxes()
 <?php }
 
     /* Save post meta on the 'save_post' hook. */
-    function prolancer_save_post($post)
+    function onwork_save_post($post)
     {
 
         // Seller Skills
@@ -880,8 +880,8 @@ function prolancer_custom_meta_boxes()
 
         // Service Packages		
         if (isset($_POST['package_price'])) {
-            global $prolancer_opt;
-            $prolancer_package_feature = !empty($prolancer_opt['prolancer_package_feature']) ? $prolancer_opt['prolancer_package_feature'] : '';
+            global $onwork_opt;
+            $onwork_package_feature = !empty($onwork_opt['onwork_package_feature']) ? $onwork_opt['onwork_package_feature'] : '';
 
             $package_name = $_POST['package_name'];
             $package_description = $_POST['package_description'];
@@ -890,7 +890,7 @@ function prolancer_custom_meta_boxes()
 
             $package_price = $_POST['package_price'];
 
-            foreach ($prolancer_package_feature as $feature) {
+            foreach ($onwork_package_feature as $feature) {
                 $package_features['packagefeature_' . str_replace(' ', '_', strtolower($feature))] = $_POST['packagefeature_' . str_replace(' ', '_', strtolower($feature))];
             }
 
@@ -987,8 +987,8 @@ function prolancer_custom_meta_boxes()
             update_user_meta(isset($_POST['post_author']), 'verification', '');
         }
     }
-    add_action('save_post', 'prolancer_save_post', 10, 2);
+    add_action('save_post', 'onwork_save_post', 10, 2);
 }
 
-add_action('load-post.php', 'prolancer_custom_meta_boxes');
-add_action('load-post-new.php', 'prolancer_custom_meta_boxes');
+add_action('load-post.php', 'onwork_custom_meta_boxes');
+add_action('load-post-new.php', 'onwork_custom_meta_boxes');

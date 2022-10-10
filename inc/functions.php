@@ -16,10 +16,8 @@ require ONWORK_CORE_DIR_PATH . '/wp-widgets/contact-us.php';
 require ONWORK_CORE_DIR_PATH . '/wp-widgets/recent-post.php';
 include_once(dirname(__FILE__) . '/metabox.php');
 include_once(dirname(__FILE__) . '/db-tables.php');
-// include_once(dirname( __FILE__ ). '/widgets/widget-filter-by-attribute.php');
-// include_once(dirname( __FILE__ ). '/widgets/widget-recent-posts.php');
-// include_once(dirname( __FILE__ ). '/widgets/widget-seller-details.php');
-// include_once(dirname( __FILE__ ). '/widgets/widget-buyer-details.php');
+include_once(dirname(__FILE__) . '/templates.php');
+
 
 /**
  * Returns page url by template file name
@@ -40,3 +38,50 @@ function onwork_get_page_url_by_template($template)
         return get_permalink($pages[0]);
     }
 }
+
+/**
+ * Returns page id by template file name
+ *
+ * @param string $template name of template file including .php
+ */
+function onwork_get_page_id_by_template($template)
+{
+    $args = [
+        'post_type'  => 'page',
+        'fields'     => 'ids',
+        'nopaging'   => true,
+        'meta_key'   => '_wp_page_template',
+        'meta_value' => $template
+    ];
+    $pages = get_posts($args);
+    if ($pages) {
+        return $pages[0];
+    }
+}
+
+/*
+ * Add extra query string
+ */
+
+function onwork_append_query_string($url, $id)
+{
+    if (onwork_get_page_id_by_template('onwork-dashboard.php') == $id) {
+        $url = add_query_arg('fed', '', $url);
+    }
+    return $url;
+}
+add_filter('page_link', 'onwork_append_query_string', 10, 2);
+
+
+// Remove menu items from end users
+function onwork_remove_menu_items()
+{
+    if (!current_user_can('administrator')) {
+        remove_menu_page('edit.php?post_type=sellers');
+        remove_menu_page('edit.php?post_type=buyers');
+        remove_menu_page('edit.php?post_type=payouts');
+        remove_menu_page('edit.php?post_type=disputes');
+        remove_menu_page('edit.php?post_type=verification');
+    };
+}
+add_action('admin_menu', 'onwork_remove_menu_items');
