@@ -85,3 +85,17 @@ function onwork_remove_menu_items()
     };
 }
 add_action('admin_menu', 'onwork_remove_menu_items');
+
+// Enqueue script
+function onwork_style_script() {
+    wp_enqueue_style(
+        'onwork-dashboard',
+        ONWORK_CORE_ASSETS . 'css/dashboard.css',
+        null,
+        ONWORK_CORE_VERSION
+    );
+
+    // JS
+    // wp_enqueue_script('sweetalert2', plugin_dir_url(__FILE__) . '../assets/js/sweetalert2.min.js', array('jquery'), wp_get_theme()->get('Version'), true);
+}
+add_action('wp_enqueue_scripts', 'onwork_style_script');

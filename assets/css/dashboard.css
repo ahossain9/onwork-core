@@ -1,0 +1,22 @@
+.frontend-dashboard-wrap {
+    background-color: #F4F7F8;
+}
+
+.frontend-dashboard-sidebar {
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    padding: 50px 50px 100%;
+}
+
+.dashboard-sidebar-menu li {
+    display: block;
+    padding: 10px 0;
+}
+
+.dashboard-sidebar-menu li a {
+    display: block;
+}
+.frontend-dashboard-body {
+    width: 100%;
+    height: 100%;
+}
