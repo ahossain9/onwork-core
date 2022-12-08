@@ -1,19 +1,12 @@
 <?php
-
-/**
- * Define the metabox and field configurations.
- */
-function onwork_metaboxes()
-{
+function onwork_metaboxes() {
 
     $currency_symbol = class_exists('WooCommerce') ? get_woocommerce_currency_symbol() : '';
 
-    /**
-     * Project metabox
-     */
+    //Project
     $project = new_cmb2_box(array(
         'id'            => 'project_metabox',
-        'title'         => esc_html__('Project details', 'onwork-core'),
+        'title'         => esc_html__('Project Details', 'onwork-core'),
         'object_types'  => array('projects'),
         'context'       => 'normal',
         'priority'      => 'high',
@@ -28,20 +21,20 @@ function onwork_metaboxes()
     ));
 
     $project->add_field(array(
-        'name'           => esc_html__('Seller type', 'onwork-core'),
+        'name'           => esc_html__('Seller Type', 'onwork-core'),
         'id'             => 'project_seller_type',
         'taxonomy'       => 'project-seller-type',
         'type'           => 'taxonomy_select',
     ));
 
     $project->add_field(array(
-        'name'             => esc_html__('Project type', 'onwork-core'),
+        'name'             => esc_html__('Project Type', 'onwork-core'),
         'id'               => 'project_type',
         'type'             => 'select',
         'show_option_none' => true,
         'options'          => array(
-            'Fixed'                => esc_html__('Fixed', 'onwork-core'),
-            'Hourly'              => esc_html__('Hourly', 'onwork-core')
+            'Fixed'             => esc_html__('Fixed', 'onwork-core'),
+            'Hourly'            => esc_html__('Hourly', 'onwork-core')
         )
     ));
 

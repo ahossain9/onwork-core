@@ -21,11 +21,20 @@
                         <ul>
                             <li><a href="#"><i class="fa fa-home"></i> Dashboard</a></li>
                             <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
-                            <li><a href="#"><i class="fa fa-home"></i> My Projects</a></li>
-                            <li><a href="#"><i class="fa fa-home"></i> Verification</a></li>
-                            <li><a href="#"><i class="fa fa-home"></i> Packages</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> Message</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Projects</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Create Projects</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Ongoing Projects</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Canceled Projects</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Completed Projects</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Ongoing Services</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Canceled Services</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Completed Services</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Wallet</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Services Wishlist</a></li>
                             <li><a href="#"><i class="fa fa-home"></i> Disputes</a></li>
-                            <li><a href="#"><i class="fa fa-home"></i> Invoice</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Verification</a></li>
+                            <li><a href="#"><i class="fa fa-home"></i> Logout</a></li>
                         </ul>
                     </div>
                 </div>
