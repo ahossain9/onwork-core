@@ -1,3 +1,3 @@
-<?php
-
-echo 'Hello';
+	<?php wp_footer(); ?>
+	</body>
+</html>

@@ -125,7 +125,7 @@ function onwork_metaboxes() {
      * Service metabox
      */
     $service = new_cmb2_box(array(
-        'title'         => esc_html__('Service details', 'onwork-core'),
+        'title'         => esc_html__('Service Details', 'onwork-core'),
         'id'            => 'service_metabox',
         'object_types'  => array('services'),
         'context'       => 'normal',

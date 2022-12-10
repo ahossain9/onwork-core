@@ -242,34 +242,6 @@ if ( ! function_exists('onwork_custom_post_type') ) {
 
 
         // Services
-        register_post_type(
-            'service',
-            array(
-                'labels' => array(
-                    'name' => __('service', 'onwork-core'),
-                    'singular_name' => __('Service', 'onwork-core'),
-                    'menu_name' => __('Service', 'onwork-core'),
-                    'name_admin_bar' => __('Service', 'onwork-core'),
-                    'add_new' => __('Add New Service', 'onwork-core'),
-                    'add_new_item' => __('Add New Service', 'onwork-core'),
-                    'new_item' => __('New Service', 'onwork-core'),
-                    'edit_item' => __('Edit Service', 'onwork-core'),
-                    'view_item' => __('View Service', 'onwork-core'),
-                    'all_items' => __('All Services', 'onwork-core'),
-                    'search_items' => __('Search Services', 'onwork-core'),
-                    'not_found' => __('No Project Found.', 'onwork-core'),
-                ),
-                'description'    => __('Description.', 'onwork-core'),
-                'menu_icon'      => 'dashicons-clipboard',
-                'public'         => true,
-                'has_archive'    => true,
-                'show_ui'        => true,
-                'show_in_menu'   => true,
-                'rewrite'        => array('slug' => 'service'),
-                'supports'       => array('title', 'editor', 'author')
-            )
-        );
-
         register_post_type('services', array(
             'labels' => array(
                 'name' => __('Services', 'onwork-core'),

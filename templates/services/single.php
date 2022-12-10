@@ -24,7 +24,7 @@ if ($attachments) {
 }
 
 // Review
-$table = 'prolancer_reviews';
+$table = 'onwork_reviews';
 
 if ($wpdb->get_var("SHOW TABLES LIKE ${table}") == $table) {
     $query = "SELECT * FROM ${table} WHERE `project_id` = '" . get_the_ID() . "' AND `type` ='service'";
