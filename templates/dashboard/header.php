@@ -95,7 +95,7 @@ if($wpdb->get_var("SHOW TABLES LIKE 'prolancer_notifications'") == 'prolancer_no
 	                    									'numberposts' => 1,
 	                    								))[0]->ID;
 
-			                    						$sender_image = wp_get_attachment_image ( prolancer_get_image_id(get_post_meta($sender_profile_image_id, 'seller_profile_attachment', true )),array('50', '50') ,false);
+			                    						$sender_image = wp_get_attachment_image ( onwork_get_image_id(get_post_meta($sender_profile_image_id, 'seller_profile_attachment', true )),array('50', '50') ,false);
 
 											            if (!empty($sender_image)) {
 											                echo wp_kses($sender_image,array(
@@ -175,7 +175,7 @@ if($wpdb->get_var("SHOW TABLES LIKE 'prolancer_notifications'") == 'prolancer_no
 	                            <?php if ( is_user_logged_in() ) { 
 	                                if ($visit_as == 'buyer'){ ?>
 	                                    <?php
-										$buyer_image = wp_get_attachment_image ( prolancer_get_image_id(get_post_meta($buyer_id, 'buyer_profile_attachment', true )),array('50', '50') ,false);
+										$buyer_image = wp_get_attachment_image ( onwork_get_image_id(get_post_meta($buyer_id, 'buyer_profile_attachment', true )),array('50', '50') ,false);
 							            if (!empty($buyer_image)) {
 							    			echo wp_kses($buyer_image,array(
 							    				"img" => array(
@@ -189,7 +189,7 @@ if($wpdb->get_var("SHOW TABLES LIKE 'prolancer_notifications'") == 'prolancer_no
 							    		} ?>
 	                                <?php } elseif ($visit_as == 'seller'){ ?>
 	                                    <?php
-										$seller_image = wp_get_attachment_image ( prolancer_get_image_id(get_post_meta($seller_id, 'seller_profile_attachment', true )),array('50', '50') ,false);
+										$seller_image = wp_get_attachment_image ( onwork_get_image_id(get_post_meta($seller_id, 'seller_profile_attachment', true )),array('50', '50') ,false);
 
 							    		if (!empty($seller_image)) {
 							    			echo wp_kses($seller_image,array(

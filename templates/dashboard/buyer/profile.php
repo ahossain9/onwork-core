@@ -23,19 +23,19 @@ $buyer	  =	get_post($buyer_id); ?>
 					<div class="col-md-6">
 						<select name="buyer_departments" class="form-control">
 							<option><?php echo esc_html__('Departments','prolancer'); ?></option>
-							<?php prolancer_get_option_list('buyer-departments', 'buyer_departments', $buyer_id); ?>
+							<?php onwork_get_option_list('buyer-departments', 'buyer_departments', $buyer_id); ?>
 						</select>
 					</div>
 					<div class="col-md-6">
 						<select name="employees_number" class="form-control">
 							<option><?php echo esc_html__('Number of Employees','prolancer'); ?></option>
-							<?php prolancer_get_option_list('employees-number', 'employees_number', $buyer_id); ?>
+							<?php onwork_get_option_list('employees-number', 'employees_number', $buyer_id); ?>
 						</select>
 					</div>
 					<div class="col-md-6">
 						<select name="buyer_locations" class="form-control">
 							<option><?php echo esc_html__('Locations','prolancer'); ?></option>
-							<?php prolancer_get_option_list('buyer-locations', 'buyer_locations', $buyer_id); ?>
+							<?php onwork_get_option_list('buyer-locations', 'buyer_locations', $buyer_id); ?>
 						</select>
 					</div>
 					<div class="col-md-12">
