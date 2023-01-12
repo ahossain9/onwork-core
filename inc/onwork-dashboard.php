@@ -344,6 +344,14 @@ if (is_user_logged_in()) {
                                 } else {
                                     include_once plugin_dir_path(__DIR__) . 'templates/dashboard/buyer/ongoing-services.php';
                                 }
+                            } elseif ($frontendDashboard == 'create-service') {
+                                $exists_in_theme = file_exists(locate_template('/prolancer-templates/dashboard/seller/create-service.php', false));
+
+                                if ($exists_in_theme == true) {
+                                    get_template_part('prolancer-templates/dashboard/seller/create-service');
+                                } else {
+                                    include_once plugin_dir_path(__DIR__) . 'templates/dashboard/seller/create-service.php';
+                                }
                             } elseif ($frontendDashboard == 'ongoing-service-details') {
                                 $exists_in_theme = file_exists(locate_template('/onwork-templates/dashboard/buyer/ongoing-service-details.php', false));
 

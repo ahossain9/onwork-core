@@ -19,6 +19,7 @@ include_once(dirname(__FILE__) . '/widgets/widget-recent-posts.php');
 include_once(dirname(__FILE__) . '/widgets/widget-seller-details.php');
 include_once(dirname(__FILE__) . '/widgets/widget-buyer-details.php');
 include_once(dirname(__FILE__) . '/metabox.php');
+include_once(dirname(__FILE__) . '/ajax-actions.php');
 include_once(dirname(__FILE__) . '/db-tables.php');
 include_once(dirname(__FILE__) . '/templates.php');
 
@@ -118,6 +119,31 @@ function onwork_verification()
     }
 }
 
+// set hierarchical terms
+if (!function_exists('onwork_set_hierarchical_terms')) {
+    function onwork_set_hierarchical_terms($texonomy_name = '', $term_id = '', $pid = '')
+    {
+        $term = get_term($term_id, $texonomy_name);
+        $values[] = $term->term_id;
+        if ($term->parent > 0) {
+            $parent_one_term = get_term($term->parent, $texonomy_name);
+            $values[] = $parent_one_term->term_id;
+            if ($parent_one_term->parent > 0) {
+                $parent_two_term = get_term($parent_one_term->parent, $texonomy_name);
+                $values[] = $parent_two_term->term_id;
+                if ($parent_two_term->parent > 0) {
+                    $parent_three_term = get_term($parent_two_term->parent, $texonomy_name);
+                    $values[] = $parent_three_term->term_id;
+                }
+            }
+        }
+
+        $integerIDs = array_map('intval', $values);
+        $integerIDs = array_unique($integerIDs);
+        wp_set_post_terms($pid, $integerIDs, $texonomy_name);
+    }
+}
+
 // Get option list
 function onwork_get_option_list($taxonomy, $meta, $post_id)
 {
@@ -183,3 +209,19 @@ function onwork_seller_reviews($id)
         return $wpdb->get_results($query, ARRAY_A);
     }
 }
+
+
+// Enqueue script
+function onwork_plugin_enqueue_script()
+{
+
+    // CSS
+    wp_enqueue_style('prolancer-select2', plugin_dir_url(__FILE__) . '../assets/css/select2.min.css');
+
+    //JS
+    wp_enqueue_script('sweetalert2', plugin_dir_url(__FILE__) . '../assets/js/sweetalert2.min.js', array('jquery'), wp_get_theme()->get('Version'), true);
+    wp_enqueue_script('prolancer-select2', plugin_dir_url(__FILE__) . '../assets/js/select2.min.js', array('jquery'), wp_get_theme()->get('Version'), true);
+    wp_enqueue_script('prolancer-app', plugin_dir_url(__FILE__) . '../assets/js/app.js', array('jquery'), wp_get_theme()->get('Version'), true);
+    wp_localize_script('prolancer-app', 'OnworkCore', array('ajaxurl' => admin_url('admin-ajax.php')));
+}
+add_action('wp_enqueue_scripts', 'onwork_plugin_enqueue_script');
